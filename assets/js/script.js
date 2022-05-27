@@ -75,25 +75,38 @@ for (let i = 0; i < selectItems.length; i++) {
   });
 }
 
-function MyFunction(){
-  $(".project-img").animatedModal({
-    animatedIn:'lightSpeedIn',
-    animatedOut:'bounceOutDown',
-    color:'#3498db',
-    // Callbacks
-    beforeOpen: function() {
-        console.log("The animation was called");
-    },           
-    afterOpen: function() {
-        console.log("The animation is completed");
-    }, 
-    beforeClose: function() {
-        console.log("The animation was called");
-    }, 
-    afterClose: function() {
-        console.log("The animation is completed");
+var showProject = function() {
+  var page = this.getElementsByClassName("project-title")[0].getAttribute("page");
+  if(page!=null && page!=""){
+    if(page.startsWith("http")){
+     page = page;
+    }else{
+      page = "./data/project/"+page+"/index.html";
     }
-});
+    showD(page);
+  }else{
+  }
+
+  //var html ="./assets/data/project/finger_door_lock/index.html";
+ 
+  
+  return false;
+
+};
+function getFile(U) {
+  var X = new XMLHttpRequest();
+  X.open('GET', U, false);
+  X.send();
+return X.responseText;
+}
+var elements = document.getElementsByClassName("project-item");
+for (var i = 0; i < elements.length; i++) {
+  elements[i].addEventListener('click', showProject, false);
+}
+
+
+function MyFunction(){
+ alert("Hi");
 }
 // filter variables
 const filterItems = document.querySelectorAll("[data-filter-item]");

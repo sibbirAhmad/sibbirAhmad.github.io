@@ -51,7 +51,7 @@
   --text-gradient-yellow: linear-gradient(
     to right, 
     hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(125, 84%, 22%)
   );
 
   /* solid */
@@ -1340,7 +1340,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  /* #cm .avatar-box was 30 px [Not Full Round] */
+  .avatar-box { border-radius: 90px; }
 
   .avatar-box img { width: 120px; }
 

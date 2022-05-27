@@ -15,7 +15,7 @@
   <!--
     - custom css link
   -->
-
+  <link rel="stylesheet" href="./assets/css/monolog.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   
 
@@ -172,7 +172,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
@@ -180,7 +180,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link active" data-nav-link>Portfolio</button>
           </li>
 
           <li class="navbar-item">
@@ -203,7 +203,7 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about" data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -706,8 +706,8 @@
       <!--
         - #PORTFOLIO
       -->
-
-      <article class="portfolio" data-page="portfolio">
+      <!-- #region  : Portpolio -->
+      <article class="portfolio  active" data-page="portfolio">
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -715,6 +715,7 @@
 
         <section class="projects">
 
+          <!-- #region : Project Filter -->
           <ul class="filter-list">
 
             <li class="filter-item">
@@ -726,7 +727,13 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Mobile App</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Desktop App</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web App</button>
             </li>
 
             <li class="filter-item">
@@ -758,8 +765,15 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Mobile App</button>
               </li>
+              <li class="select-item">
+                <button data-select-item>Desktop App</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web App</button>
+              </li>
+
 
               <li class="select-item">
                 <button data-select-item>Web development</button>
@@ -768,64 +782,109 @@
             </ul>
 
           </div>
+          <!-- #endregion : Project Filter -->
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
+         
+             <!-- #region : Iot Projects [1] -->
             <li class="project-item  active" data-filter-item data-category="iot">
-              <a href="PleaseEnableJavascript.html" onclick="MyFunction();return false;">
+              <!-- Onclick i href
+                PleaseEnableJavascript.html" onclick="showD('hello');return false; -->
+              <a href="#!">
 
                 <figure class="project-img" >
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/data/project/finger_door_lock/IMG-20220130-WA0002.jpg" alt="fundo" loading="lazy">
+                  <img src="./data/project/finger_door_lock/IMG-20220130-WA0002.jpg" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finger Door Lock</h3>
+                <h3 class="project-title" page = "finger_door_lock">Finger Door Lock</h3>
 
                 <p class="project-category">IoT</p>
 
               </a>
             </li>
+            <!-- GPS Tracker -->
+            <li class="project-item  active" data-filter-item data-category="iot">
+              <!-- Onclick i href
+                PleaseEnableJavascript.html" onclick="showD('hello');return false; -->
+              <a href="#!">
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+                <figure class="project-img" >
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p_gps-tracker.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" page = "">Bike GPS Tracker</h3>
+
+                <p class="project-category">IoT</p>
+
+              </a>
+            </li>
+            <!-- #endregion -->
+
+            <!-- #region Mobile App [6]-->
+            <!-- gunabatiShop -->
+            <li class="project-item  active" data-filter-item data-category="mobile app">
+              <a href="https://play.google.com/store/apps/details?id=com.gunabatishop">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gunabatiShop.webp" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" page = "">Gunabati Shop (Ecomerce)</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+            <!-- Ayan Shop -->
+            <li class="project-item  active" data-filter-item data-category="mobile app">
+              <a href="https://play.google.com/store/apps/details?id=com.ayansonlineshop">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ayanShop.webp" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" page = "">Ayan Shop (Ecomerce)</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="mobile app">
+              <a href="#!">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" page = "https://sibbirahmad.github.io/appControl/salahTime/">Salah Time</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="mobile app">
               <a href="#">
 
                 <figure class="project-img">
@@ -838,66 +897,12 @@
 
                 <h3 class="project-title">Brawlhalla</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Mobile App</p>
 
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
+            
+            <li class="project-item  active" data-filter-item data-category="mobile app">
               <a href="#">
 
                 <figure class="project-img">
@@ -910,12 +915,31 @@
 
                 <h3 class="project-title">Task Manager</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Mobile App</p>
 
               </a>
             </li>
+            <li class="project-item  active" data-filter-item data-category="mobile app">
+              <a href="#!">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./data/project/eBillTeletalk/images/feature.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title" page = "eBillTeletalk">EBill By Teletalk</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+            <!-- #endregion : Mobile App -->
+           
+            <!-- #region : Desktop App [2] -->
+            <li class="project-item  active" data-filter-item data-category="desktop app">
               <a href="#">
 
                 <figure class="project-img">
@@ -923,21 +947,111 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">MetaSpark</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Desktop App</p>
 
               </a>
             </li>
+            <li class="project-item  active" data-filter-item data-category="desktop app">
+              <a href="#">
 
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./data/project/java_tailer_manage/images/feature.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" page = "java_tailer_manage">Shop Manage (Java)</h3>
+
+                <p class="project-category">Desktop App</p>
+
+              </a>
+            </li>
+            <!-- #endregion : Desktop App -->
+               <!-- #region : Project : Web Development [4] -->
+               <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#!">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Finance</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development" >
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title" data-page= "This will be projectView">Orizon</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#!">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Arrival</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Summary</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+               <!-- #endregion : Web Development-->
+  
           </ul>
 
         </section>
 
       </article>
+
+      <!-- #endregion : Portpolio -->
 
 
 
@@ -1182,37 +1296,6 @@
 
   </main>
 
-  <!--Call your modal-->
-  <ul>
-    <li><a class="demo01" href="#animatedModal">DEMO01</a></li>
-    <li><a id="demo02" href="#modal-02">DEMO02</a></li>
-</ul>
-
-
-<!--DEMO01-->
-<div id="animatedModal" style="background-color: black;">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div style="text-align: center;"  id="btn-close-modal" class="close-animatedModal"> 
-        <img src="assets/images/icon-close.png" alt="">
-    </div>
-        
-    <div class="modal-content" style="background-color: black;">
-        <!--Your modal content goes here-->
-    </div>
-</div>
-
-<!--DEMO02-->
-<div id="modal-02">
-    <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
-    <div  id="btn-close-modal" class="close-modal-02"> 
-        CLOSE MODAL
-    </div>
-    
-    <div class="modal-content">
-        <!--Your modal content goes here-->
-<h1><h2>
-    </div>
-</div>
 
 
 
@@ -1222,13 +1305,24 @@
     - custom js link
   -->
   
+  <script src="./assets/js/monolog.js"></script>
   <script src="./assets/js/script.js"></script>
   <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+   function showD(url){
+    var monolog = new Monolog({
+      content :("<iframe style=\"position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;\" src=\""+url+"\" title=\"description\"></iframe>")
+  });
 
+  monolog.show();
+   }
+    
+  </script>
+  
 </body>
 
 </html>
