@@ -30,9 +30,9 @@
             "title":"Electric Bill Payment",
             "category" : "Mobile App",
             "language":"Java",
-            "folder":"eBillTeleTalk",
+            "folder":"eBillTeletalk",
             "url":"#!",
-            "featureImage":"./data/project/eBillTeleTalk/images/feature.png" 
+            "featureImage":"data/project/eBillTeletalk/images/feature.png" 
         },
         {
             
