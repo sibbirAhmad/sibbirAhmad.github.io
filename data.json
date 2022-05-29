@@ -32,7 +32,7 @@
             "language":"Java",
             "folder":"eBillTeleTalk",
             "url":"#!",
-            "featureImage":"data/project/eBillTeleTalk/images/feature.png" 
+            "featureImage":"./data/project/eBillTeleTalk/images/feature.png" 
         },
         {
             
