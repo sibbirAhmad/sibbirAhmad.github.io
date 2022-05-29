@@ -7,7 +7,6 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 
-
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
@@ -54,68 +53,6 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
 
-getProjects();
-function getProjects() {
-  fetch("data.json")
-      .then(response => {
-          return response.json();
-      })
-      .then(jsondata => showProjects(jsondata));
-
-}
-function showProjects(data){
-  var projects = data.projects;
-
-for(let i in projects){
-  var project = projects[i];
-
-  //Todo : Creating dynamic element
-  var projejctItem = document.createElement("li");
- 
-    projejctItem.className = "project-item active"
-  
-  projejctItem.setAttribute('data-filter-item', '')
-  projejctItem.setAttribute('data-category', project.category.toLowerCase())
-  //Creating href Link 
-  var a = document.createElement("a");
-  a.href = project.url;
- 
-  //Creating feagure
-  var figure = document.createElement("figure");
-  figure.className = "project-img";
-  //Creatong Div
-  var iconDiv = document.createElement("div");
-  iconDiv.className = "project-item-icon-box";
-  var ionicon = document.createElement("ion-icon");
-  ionicon.setAttribute("name","eye-outline");
-  iconDiv.appendChild(ionicon);
-  //Creating image for
-  var img = document.createElement("img");
-  img.src = project.featureImage;
-  img.alt = project.title; //Have to add App Name here
-  img.loading = "lazy";
-  figure.appendChild(img);
-  a.append(figure);
-  //project-title
-  var projectTitle = document.createElement("h3");
-  projectTitle.className = "project-title";
-  projectTitle.setAttribute("page",project.folder);//Add project folder here
-  projectTitle.innerHTML = project.title;//Add Project Name here
-  a.appendChild(projectTitle);
-  //Project Category
-  var categoryP = document.createElement("p");
-  categoryP.className = "project-category";
-  categoryP.innerHTML = project.category +" ("+project.language+")";
-  a.appendChild(categoryP);
-  //And Then Add the a to the list
-  projejctItem.appendChild(a);
-
-  document.getElementsByClassName("project-list")[0].appendChild(projejctItem);
- projejctItem.addEventListener('click', showProject, false);
-
-}
-filterEvent();
-}
 
 
 // custom select variables
@@ -127,19 +64,15 @@ const filterBtn = document.querySelectorAll("[data-filter-btn]");
 select.addEventListener("click", function () { elementToggleFunc(this); });
 
 // add event in all select items
-function filterEvent(){
-  var selectItems = document.querySelectorAll("[data-select-item]");
-  console.log("Data Select Item : "+selectItems.length);
-  for (let i = 0; i < selectItems.length; i++) {
-    selectItems[i].addEventListener("click", function () {
-  
-      let selectedValue = this.innerText.toLowerCase();
-      selectValue.innerText = this.innerText;
-      elementToggleFunc(select);
-      filterFunc(selectedValue);
-  
-    });
-  }
+for (let i = 0; i < selectItems.length; i++) {
+  selectItems[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    elementToggleFunc(select);
+    filterFunc(selectedValue);
+
+  });
 }
 
 var showProject = function() {
@@ -153,8 +86,12 @@ var showProject = function() {
     showD(page);
   }else{
   }
-  //var html ="./assets/data/project/finger_door_lock/index.html"; 
+
+  //var html ="./assets/data/project/finger_door_lock/index.html";
+ 
+  
   return false;
+
 };
 function getFile(U) {
   var X = new XMLHttpRequest();
@@ -162,13 +99,10 @@ function getFile(U) {
   X.send();
 return X.responseText;
 }
-
-// var elements = document.getElementsByClassName("project-item");
-// console.log(elements.length);
-// for (var i = 0; i < elements.length; i++) {
-//   elements[i].addEventListener('click', showProject, false);
-  
-// }
+var elements = document.getElementsByClassName("project-item");
+for (var i = 0; i < elements.length; i++) {
+  elements[i].addEventListener('click', showProject, false);
+}
 
 
 function MyFunction(){
@@ -178,7 +112,7 @@ function MyFunction(){
 const filterItems = document.querySelectorAll("[data-filter-item]");
 
 const filterFunc = function (selectedValue) {
-  var filterItems = document.querySelectorAll("[data-filter-item]");
+
   for (let i = 0; i < filterItems.length; i++) {
 
     if (selectedValue === "all") {

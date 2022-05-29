@@ -1,0 +1,56 @@
+{
+    "projects":[
+        {
+            "title":"Finger Door Lock",
+            "category" : "IoT",
+            "language":"C++",
+            "folder":"fingerDoorLock",
+            "url":"#!",
+            "featureImage":"data/project/fingerDoorLock/feature.jpg" 
+            
+        },
+        {
+            "title":"Bike Gps Tracker",
+            "category" : "IoT",
+            "language":"c++",
+            "folder":"febuReader",
+            "url":"#!",
+            "featureImage":"assets/images/p_gps-tracker.jpg" 
+        },
+        {
+            "title":"Salah Time",
+            "category" : "Mobile App",
+            "language":"Java",
+            "folder":"salahTime",
+            "url":"#!",
+            "featureImage":"data/project/salahTime/images/feature.png" 
+        }
+        ,
+        {
+            "title":"Electric Bill Payment",
+            "category" : "Mobile App",
+            "language":"Java",
+            "folder":"eBillTeleTalk",
+            "url":"#!",
+            "featureImage":"data/project/eBillTeleTalk/images/feature.png" 
+        },
+        {
+            
+            "title":"sVid (Video Downloader_",
+            "category" : "Mobile App",
+            "language":"Java",
+            "folder":"svid",
+            "url":"https://sibbirahmad.github.io/sVid/",
+            "featureImage":"data/project/svid/images/feature.jpg" 
+        }
+        
+        , {
+            "title":"Shop Manage",
+            "category" : "Desktop App",
+            "language":"Java",
+            "folder":"javaTailerManage",
+            "url":"#!",
+            "featureImage":"data/project/javaTailerManage/images/feature.png" 
+        }
+    ]
+}
