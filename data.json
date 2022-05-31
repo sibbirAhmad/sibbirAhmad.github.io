@@ -6,7 +6,37 @@
             "language": "C++",
             "folder": "fingerDoorLock",
             "url": "#!",
-            "featureImage": "data/project/fingerDoorLock/feature.jpg"
+            "featureImage": "data/project/fingerDoorLock/feature.jpg",
+            "features":[
+                {
+                    "name":"No Monthly Bill",
+                    "details":"Not required any billing service"
+                },
+                {
+                    "name":"Track your bike",
+                    "details":"You can track bike easily"
+                }
+            ],
+            "images":[
+                {
+                    "src":"feature.png",
+                    "title":"image title"
+
+                },
+                {
+                    "src":"1.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"2.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"3.png",
+                    "title":"image title"
+                }
+
+            ]
         },
         {
             "title": "Bike Gps Tracker",
@@ -15,6 +45,7 @@
             "folder": "febuReader",
             "url": "#!",
             "featureImage": "assets/images/p_gps-tracker.jpg"
+              
         },
         {
             "title": "Febu Reader",
@@ -28,9 +59,39 @@
             "title": "Insaf GPS Tracker",
             "category": "Mobile App",
             "language": "Java,php,Firebase,GMap SDK",
-            "folder": "febuReader",
+            "folder": "insafGpsTracker",
             "url": "#!",
-            "featureImage": "data/project/insafGpsTracker/images/feature.png"
+            "featureImage": "data/project/insafGpsTracker/images/feature.png",
+            "features":[
+                {
+                    "name":"No Monthly Bill",
+                    "details":"Not required any billing service"
+                },
+                {
+                    "name":"Track your bike",
+                    "details":"You can track bike easily"
+                }
+            ],
+            "images":[
+                {
+                    "src":"feature.png",
+                    "title":"image title"
+
+                },
+                {
+                    "src":"1.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"2.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"4.png",
+                    "title":"image title"
+                }
+
+            ]
         },
         {
             "title": "Salah Time",
@@ -38,7 +99,37 @@
             "language": "Java",
             "folder": "salahTime",
             "url": "#!",
-            "featureImage": "data/project/salahTime/images/feature.png"
+            "featureImage": "data/project/salahTime/images/feature.png",
+            "features":[
+                {
+                    "name":"No Monthly Bill",
+                    "details":"Not required any billing service"
+                },
+                {
+                    "name":"Track your bike",
+                    "details":"You can track bike easily"
+                }
+            ],
+            "images":[
+                {
+                    "src":"feature.png",
+                    "title":"image title"
+
+                },
+                {
+                    "src":"1.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"2.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"3.png",
+                    "title":"image title"
+                }
+
+            ]
         },
         {
             "title": "Electric Bill Payment",
@@ -63,6 +154,38 @@
             "folder": "alif",
             "url": "#!",
             "featureImage": "data/project/salahTime/images/feature.png"
+        },
+        {
+            "title": "Gunabati Sop",
+            "category": "Mobile App",
+            "language": "Java,Sinch SDK",
+            "folder": "alif",
+            "url": "https://play.google.com/store/apps/details?id=com.gunabatishop",
+            "featureImage": "assets/images/gunabatiShop.webp"
+        },
+        {
+            "title": "Ayan Shop",
+            "category": "Mobile App",
+            "language": "Java,Sinch SDK",
+            "folder": "alif",
+            "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop",
+            "featureImage": "assets/images/ayanShop.webp"
+        },
+        {
+            "title": "SR Manage",
+            "category": "Mobile App",
+            "language": "Java,Sinch SDK",
+            "folder": "alif",
+            "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop",
+            "featureImage": "assets/images/gunabatiShop.webp"
+        },
+        {
+            "title": "Screen Recorder",
+            "category": "Mobile App",
+            "language": "Java,Sinch SDK",
+            "folder": "alif",
+            "url": "https://github.com/sibbirAhmad/SimpleScreenRecorder",
+            "featureImage": "assets/images/gunabatiShop.webp"
         },
         
         {
