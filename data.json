@@ -1,56 +1,77 @@
 {
-    "projects":[
+    "projects": [
         {
-            "title":"Finger Door Lock",
-            "category" : "IoT",
-            "language":"C++",
-            "folder":"fingerDoorLock",
-            "url":"#!",
-            "featureImage":"data/project/fingerDoorLock/feature.jpg" 
-            
+            "title": "Finger Door Lock",
+            "category": "IoT",
+            "language": "C++",
+            "folder": "fingerDoorLock",
+            "url": "#!",
+            "featureImage": "data/project/fingerDoorLock/feature.jpg"
         },
         {
-            "title":"Bike Gps Tracker",
-            "category" : "IoT",
-            "language":"c++",
-            "folder":"febuReader",
-            "url":"#!",
-            "featureImage":"assets/images/p_gps-tracker.jpg" 
+            "title": "Bike Gps Tracker",
+            "category": "IoT",
+            "language": "c++",
+            "folder": "febuReader",
+            "url": "#!",
+            "featureImage": "assets/images/p_gps-tracker.jpg"
         },
         {
-            "title":"Salah Time",
-            "category" : "Mobile App",
-            "language":"Java",
-            "folder":"salahTime",
-            "url":"#!",
-            "featureImage":"data/project/salahTime/images/feature.png" 
-        }
-        ,
-        {
-            "title":"Electric Bill Payment",
-            "category" : "Mobile App",
-            "language":"Java",
-            "folder":"eBillTeletalk",
-            "url":"#!",
-            "featureImage":"data/project/eBillTeletalk/images/feature.png" 
+            "title": "Febu Reader",
+            "category": "Mobile App",
+            "language": "Java,php",
+            "folder": "febuReader",
+            "url": "#!",
+            "featureImage": "data/project/febuReader/images/feature.png"
         },
         {
-            
-            "title":"sVid (Video Downloader_",
-            "category" : "Mobile App",
-            "language":"Java",
-            "folder":"svid",
-            "url":"https://sibbirahmad.github.io/sVid/",
-            "featureImage":"data/project/svid/images/feature.jpg" 
-        }
+            "title": "Insaf GPS Tracker",
+            "category": "Mobile App",
+            "language": "Java,php,Firebase,GMap SDK",
+            "folder": "febuReader",
+            "url": "#!",
+            "featureImage": "data/project/insafGpsTracker/images/feature.png"
+        },
+        {
+            "title": "Salah Time",
+            "category": "Mobile App",
+            "language": "Java",
+            "folder": "salahTime",
+            "url": "#!",
+            "featureImage": "data/project/salahTime/images/feature.png"
+        },
+        {
+            "title": "Electric Bill Payment",
+            "category": "Mobile App",
+            "language": "Java",
+            "folder": "eBillTeletalk",
+            "url": "#!",
+            "featureImage": "data/project/eBillTeletalk/images/feature.png"
+        },
+        {
+            "title": "sVid (Video Downloader_",
+            "category": "Mobile App",
+            "language": "Java",
+            "folder": "svid",
+            "url": "https://sibbirahmad.github.io/sVid/",
+            "featureImage": "data/project/svid/images/feature.jpg"
+        },
+        {
+            "title": "Alif (Shareable Reminder)",
+            "category": "Mobile App",
+            "language": "Java,Sinch SDK",
+            "folder": "alif",
+            "url": "#!",
+            "featureImage": "data/project/salahTime/images/feature.png"
+        },
         
-        , {
-            "title":"Shop Manage",
-            "category" : "Desktop App",
-            "language":"Java",
-            "folder":"javaTailerManage",
-            "url":"#!",
-            "featureImage":"data/project/javaTailerManage/images/feature.png" 
+        {
+            "title": "Shop Manage",
+            "category": "Desktop App",
+            "language": "Java",
+            "folder": "javaTailerManage",
+            "url": "#!",
+            "featureImage": "data/project/javaTailerManage/images/feature.png"
         }
     ]
 }
