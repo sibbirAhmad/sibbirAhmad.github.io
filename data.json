@@ -150,7 +150,7 @@
         {
             "title": "Electric Bill Payment",
             "category": "Mobile App",
-            "language": "Java",
+            "language": "Java,Firebase ML",
             "folder": "eBillTeletalk",
             "url": "#!",
             "featureImage": "data/project/eBillTeletalk/images/feature.png",
@@ -310,9 +310,52 @@
             "title": "SR Manage",
             "category": "Mobile App",
             "language": "Java,Sinch SDK",
-            "folder": "",
-            "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop",
-            "featureImage": "assets/images/gunabatiShop.webp"
+            "folder": "srManage",
+            "url": "#!",
+            "featureImage": "data/project/srManage/images/feature.png",
+            "features":[
+                {
+                    "name":"Bangla Supported",
+                    "details":"This app is developed in Bangla Language"
+                },
+                {
+                    "name":"Easy To Download YouTube Videp",
+                    "details":"You can download youtube video jus by a single click"
+                },
+                {
+                    "name":"Facebook Video and Audio Download",
+                    "details":"You can also download Any Kind of facebook Video"
+                },
+                {
+                    "name":"History",
+                    "details":"All your payment will be store in database"
+                },
+                {
+                    "name":"Balence Monitoring",
+                    "details":"You can monitor your balance easily"
+                }
+            ],
+            "images":[
+                {
+                    "src":"feature.png",
+                    "title":"image title"
+
+                },
+                {
+                    "src":"1.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"2.png",
+                    "title":"image title"
+                }, 
+                {
+                    "src":"3.png",
+                    "title":"image title"
+                }
+
+            ]
+
         },
         {
             "title": "Screen Recorder",
