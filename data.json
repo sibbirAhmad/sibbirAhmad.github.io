@@ -7,35 +7,33 @@
             "folder": "fingerDoorLock",
             "url": "#!",
             "featureImage": "data/project/fingerDoorLock/feature.jpg",
-            "features":[
+            "features": [
                 {
-                    "name":"Easy Setup",
-                    "details":"This Device is very easy to setup"
+                    "name": "Easy Setup",
+                    "details": "This Device is very easy to setup"
                 },
                 {
-                    "name":"Offline/SMS Control",
-                    "details":"You can control your device using sms"
+                    "name": "Offline/SMS Control",
+                    "details": "You can control your device using sms"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
             ]
         },
         {
@@ -45,7 +43,6 @@
             "folder": "insafGpsTracker",
             "url": "#!",
             "featureImage": "assets/images/p_gps-tracker.jpg"
-              
         },
         {
             "title": "Febu Reader",
@@ -62,43 +59,41 @@
             "folder": "insafGpsTracker",
             "url": "#!",
             "featureImage": "data/project/insafGpsTracker/images/feature.png",
-            "features":[
+            "features": [
                 {
-                    "name":"No Monthly Bill",
-                    "details":"Not required any billing service"
+                    "name": "No Monthly Bill",
+                    "details": "Not required any billing service"
                 },
                 {
-                    "name":"Live Tracking",
-                    "details":"You can track your bike postion and speed Live"
-                }, 
-                {
-                    "name":"Fuled Monitoring",
-                    "details":"It's a great feature that you an monitor your vehicle fule remotely"
+                    "name": "Live Tracking",
+                    "details": "You can track your bike postion and speed Live"
                 },
                 {
-                    "name":"Area Alrert",
-                    "details":"You can set your fixed area for your vehicle, and you will get a sms and notification alert if it go out of your area"
+                    "name": "Fuled Monitoring",
+                    "details": "It's a great feature that you an monitor your vehicle fule remotely"
+                },
+                {
+                    "name": "Area Alrert",
+                    "details": "You can set your fixed area for your vehicle, and you will get a sms and notification alert if it go out of your area"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"4.png",
-                    "title":"image title"
+                    "src": "4.png",
+                    "title": "image title"
                 }
-
             ]
         },
         {
@@ -108,43 +103,41 @@
             "folder": "salahTime",
             "url": "#!",
             "featureImage": "data/project/salahTime/images/feature.png",
-            "features":[
+            "features": [
                 {
-                    "name":"Full Offline",
-                    "details":"This app can calculate salah Time without any internet or network connection"
+                    "name": "Full Offline",
+                    "details": "This app can calculate salah Time without any internet or network connection"
                 },
                 {
-                    "name":"Auto Silent Mode",
-                    "details":"Your phone will will be auto silent during Salah Time"
+                    "name": "Auto Silent Mode",
+                    "details": "Your phone will will be auto silent during Salah Time"
                 },
                 {
-                    "name":"100% Add free",
-                    "details":"No Ad will disturb you"
+                    "name": "100% Add free",
+                    "details": "No Ad will disturb you"
                 },
                 {
-                    "name":"Manual Latitude Logitude Setup",
-                    "details":"If you are expert, you can set your location manually"
+                    "name": "Manual Latitude Logitude Setup",
+                    "details": "If you are expert, you can set your location manually"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
             ]
         },
         {
@@ -154,47 +147,45 @@
             "folder": "eBillTeletalk",
             "url": "#!",
             "featureImage": "data/project/eBillTeletalk/images/feature.png",
-            "features":[
+            "features": [
                 {
-                    "name":"Easy to pay",
-                    "details":"Just in two click you can pay your bill. This app will autometically handle every process"
+                    "name": "Easy to pay",
+                    "details": "Just in two click you can pay your bill. This app will autometically handle every process"
                 },
                 {
-                    "name":"Payment by Scan",
-                    "details":"You can pay your electricity bill just by scanning your bill paper"
+                    "name": "Payment by Scan",
+                    "details": "You can pay your electricity bill just by scanning your bill paper"
                 },
                 {
-                    "name":"Offline",
-                    "details":"To use this app, not required any internet connection"
+                    "name": "Offline",
+                    "details": "To use this app, not required any internet connection"
                 },
                 {
-                    "name":"History",
-                    "details":"All your payment will be store in database"
+                    "name": "History",
+                    "details": "All your payment will be store in database"
                 },
                 {
-                    "name":"Balence Monitoring",
-                    "details":"You can monitor your balance easily"
+                    "name": "Balence Monitoring",
+                    "details": "You can monitor your balance easily"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
             ]
         },
         {
@@ -204,49 +195,46 @@
             "folder": "svid",
             "url": "https://sibbirahmad.github.io/sVid/",
             "featureImage": "data/project/svid/images/feature.jpg",
-            "features":[
+            "features": [
                 {
-                    "name":"Bangla Supported",
-                    "details":"This app is developed in Bangla Language"
+                    "name": "Bangla Supported",
+                    "details": "This app is developed in Bangla Language"
                 },
                 {
-                    "name":"Easy To Download YouTube Videp",
-                    "details":"You can download youtube video jus by a single click"
+                    "name": "Easy To Download YouTube Videp",
+                    "details": "You can download youtube video jus by a single click"
                 },
                 {
-                    "name":"Facebook Video and Audio Download",
-                    "details":"You can also download Any Kind of facebook Video"
+                    "name": "Facebook Video and Audio Download",
+                    "details": "You can also download Any Kind of facebook Video"
                 },
                 {
-                    "name":"History",
-                    "details":"All your payment will be store in database"
+                    "name": "History",
+                    "details": "All your payment will be store in database"
                 },
                 {
-                    "name":"Balence Monitoring",
-                    "details":"You can monitor your balance easily"
+                    "name": "Balence Monitoring",
+                    "details": "You can monitor your balance easily"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
             ]
-            
         },
         {
             "title": "Alif (Shareable Reminder)",
@@ -255,39 +243,37 @@
             "folder": "alif",
             "url": "#!",
             "featureImage": "data/project/alif/images/feature.png",
-            "features":[
+            "features": [
                 {
-                    "name":"Quick Reminde",
-                    "details":"You can create Quick Reminer from notification"
+                    "name": "Quick Reminde",
+                    "details": "You can create Quick Reminer from notification"
                 },
                 {
-                    "name":"Share With your Friends",
-                    "details":"You can share your reminder with your friends through internet"
+                    "name": "Share With your Friends",
+                    "details": "You can share your reminder with your friends through internet"
                 },
                 {
-                    "name":"Track progress",
-                    "details":"Easily you can track the progress"
+                    "name": "Track progress",
+                    "details": "Easily you can track the progress"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
             ]
         },
         {
@@ -313,49 +299,46 @@
             "folder": "srManage",
             "url": "#!",
             "featureImage": "data/project/srManage/images/feature.png",
-            "features":[
+            "features": [
                 {
-                    "name":"Bangla Supported",
-                    "details":"This app is developed in Bangla Language"
+                    "name": "Bangla Supported",
+                    "details": "This app is developed in Bangla Language"
                 },
                 {
-                    "name":"Easy To Download YouTube Videp",
-                    "details":"You can download youtube video jus by a single click"
+                    "name": "Easy To Download YouTube Videp",
+                    "details": "You can download youtube video jus by a single click"
                 },
                 {
-                    "name":"Facebook Video and Audio Download",
-                    "details":"You can also download Any Kind of facebook Video"
+                    "name": "Facebook Video and Audio Download",
+                    "details": "You can also download Any Kind of facebook Video"
                 },
                 {
-                    "name":"History",
-                    "details":"All your payment will be store in database"
+                    "name": "History",
+                    "details": "All your payment will be store in database"
                 },
                 {
-                    "name":"Balence Monitoring",
-                    "details":"You can monitor your balance easily"
+                    "name": "Balence Monitoring",
+                    "details": "You can monitor your balance easily"
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
             ]
-
         },
         {
             "title": "Screen Recorder",
@@ -365,7 +348,6 @@
             "url": "https://github.com/sibbirAhmad/SimpleScreenRecorder",
             "featureImage": "assets/images/project-8.jpg"
         },
-        
         {
             "title": "Shop Manage",
             "category": "Desktop App",
@@ -373,47 +355,89 @@
             "folder": "javaTailerManage",
             "url": "#!",
             "featureImage": "data/project/javaTailerManage/images/feature.png"
-        }, {
+        },
+        {
             "title": "Web Database Project",
             "category": "Web App",
             "language": "HTML, CSS, JavaScript,PHP,MySQL",
             "folder": "webDbProject",
             "url": "#!",
             "featureImage": "data/project/webDbProject/images/feature.png",
-            "features":[
+            "features": [
                 {
-                    "name":"Email Verification",
-                    "details":"Email verification using php"
+                    "name": "Email Verification",
+                    "details": "Email verification using php"
                 },
                 {
-                    "name":"Forgot Password",
-                    "details":"Using Raw php"
+                    "name": "Forgot Password",
+                    "details": "Using Raw php"
                 },
                 {
-                    "name":"MySql Database",
-                    "details":""
+                    "name": "MySql Database",
+                    "details": ""
                 }
             ],
-            "images":[
+            "images": [
                 {
-                    "src":"feature.png",
-                    "title":"image title"
-
+                    "src": "feature.png",
+                    "title": "image title"
                 },
                 {
-                    "src":"1.png",
-                    "title":"image title"
-                }, 
+                    "src": "1.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"2.png",
-                    "title":"image title"
-                }, 
+                    "src": "2.png",
+                    "title": "image title"
+                },
                 {
-                    "src":"3.png",
-                    "title":"image title"
+                    "src": "3.png",
+                    "title": "image title"
                 }
-
+            ]
+        },
+        {
+            "title": "Insaf Service Web",
+            "category": "Web Development",
+            "language": "HTML, CSS, JavaScript,PHP,MySQL,IoT",
+            "folder": "insafServiceWeb",
+            "url": "#!",
+            "featureImage": "data/project/insafServiceWeb/images/feature.png",
+            "features": [
+                {
+                    "name": "Track your Bike from anywhere, any time",
+                    "details": ""
+                },
+                {
+                    "name": "Track Current speed",
+                    "details": ""
+                },
+                {
+                    "name": "Monitor Fuel",
+                    "details": ""
+                }
+            ],
+            "images": [
+                {
+                    "src": "feature.png",
+                    "title": "image title"
+                },
+                {
+                    "src": "1.png",
+                    "title": "image title"
+                },
+                {
+                    "src": "2.png",
+                    "title": "image title"
+                },
+                {
+                    "src": "3.png",
+                    "title": "image title"
+                }
             ]
         }
+    ],
+    "services":[
+        
     ]
 }
