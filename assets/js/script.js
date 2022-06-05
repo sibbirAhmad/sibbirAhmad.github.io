@@ -155,7 +155,8 @@ var showProject = function() {
     if(page.startsWith("http")){
      page = page;
     }else{
-      page = "./data/project/"+page+"/index.html";
+      //Show project on Click 
+      page = "./data/projectView/index.html?p="+page;
     }
     showD(page);
   }else{
