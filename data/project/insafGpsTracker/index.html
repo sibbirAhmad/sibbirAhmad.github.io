@@ -58,6 +58,23 @@ margin-right: auto; }
 </div>
 
 <script>
+  var p = getURLParams();
+ console.log(p.udid);
+  // get url parameters with javascript (e.g.: sample.html?udid=123&device=iphone)
+function getURLParams() {
+    var params= new Object();
+    var query = window.location.search.substring(1);
+    var pairs = query.split('&');
+    for (var i=0; i<pairs.length; i++) {
+        var pos = pairs[i].indexOf('=');
+        if (pos > 0) {
+            var key = pairs[i].substring(0,pos);
+            var val = pairs[i].substring(pos+1);
+            params[key] = val;
+        }
+    }
+    return params;
+}
   var d = document.location.pathname;
   var d1 = d.lastIndexOf('/');
   var d2 = d.substring(d,d1);  
@@ -65,7 +82,7 @@ margin-right: auto; }
 
   getProjects();
 function getProjects() {
-  fetch("../../../data.json")
+  fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/data.json")
       .then(response => {
           return response.json();
       })

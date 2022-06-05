@@ -1,6 +1,6 @@
 {
-    "projects": [
-      {
+    "projects": {
+      "fingerDoorLock": {
         "category": "IoT",
         "featureImage": "data/project/fingerDoorLock/feature.jpg",
         "features": [
@@ -33,10 +33,10 @@
           }
         ],
         "language": "C++",
-        "title": "Finger Door Lock with GPRS",
+        "title": "SS Finger Door Lock with GPRS",
         "url": "#!"
       },
-      {
+      "insafGpsDevice": {
         "category": "IoT",
         "featureImage": "assets/images/p_gps-tracker.jpg",
         "folder": "insafGpsTracker",
@@ -44,7 +44,7 @@
         "title": "Bike Gps Tracker",
         "url": "#!"
       },
-      {
+      "febuReader": {
         "category": "Mobile App",
         "featureImage": "data/project/febuReader/images/feature.png",
         "folder": "febuReader",
@@ -52,21 +52,21 @@
         "title": "Febu Reader",
         "url": "#!"
       },
-      {
+      "insafGpsTracker": {
         "category": "Mobile App",
         "featureImage": "data/project/insafGpsTracker/images/feature.png",
         "features": [
           {
-            "details": "Not required any billing service",
-            "name": "No Monthly Bill"
+            "details": "To use this GPS Device you don’t required any monthly or yearly billing",
+            "name": "No Billing Charge"
           },
           {
-            "details": "You can track your bike postion and speed Live",
-            "name": "Live Tracking"
+            "details": "Very easy to setup<br>  Account will be created automatically by the device using your device number",
+            "name": "Simple Setup"
           },
           {
-            "details": "It's a great feature that you an monitor your vehicle fule remotely",
-            "name": "Fuled Monitoring"
+            "details": "Registration  will be completed by the device automatically by it’s number and pin",
+            "name": "Auto Registration"
           },
           {
             "details": "You can set your fixed area for your vehicle, and you will get a sms and notification alert if it go out of your area",
@@ -96,7 +96,7 @@
         "title": "Insaf GPS Tracker",
         "url": "#!"
       },
-      {
+      "salahTime": {
         "category": "Mobile App",
         "featureImage": "data/project/salahTime/images/feature.png",
         "features": [
@@ -140,7 +140,7 @@
         "title": "Salah Time",
         "url": "#!"
       },
-      {
+      "eBillTeletalk": {
         "category": "Mobile App",
         "featureImage": "data/project/eBillTeletalk/images/feature.png",
         "features": [
@@ -188,7 +188,7 @@
         "title": "Electric Bill Payment",
         "url": "#!"
       },
-      {
+      "svid": {
         "category": "Mobile App",
         "featureImage": "data/project/svid/images/feature.jpg",
         "features": [
@@ -236,7 +236,7 @@
         "title": "sVid (Video Downloader_",
         "url": "https://sibbirahmad.github.io/sVid/"
       },
-      {
+      "alif": {
         "category": "Mobile App",
         "featureImage": "data/project/alif/images/feature.png",
         "features": [
@@ -276,23 +276,23 @@
         "title": "Alif (Shareable Reminder)",
         "url": "#!"
       },
-      {
+      "gunabatiShop": {
         "category": "Mobile App",
         "featureImage": "assets/images/gunabatiShop.webp",
-        "folder": "",
+        "folder": "gunabatiShop",
         "language": "Java [PlayStore]",
         "title": "Gunabati Sop",
         "url": "https://play.google.com/store/apps/details?id=com.gunabatishop"
       },
-      {
+      "ayanShop": {
         "category": "Mobile App",
         "featureImage": "assets/images/project-4.png",
-        "folder": "",
+        "folder": "ayanShop",
         "language": "Java [PlayStore]",
         "title": "Ayan Shop",
         "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop"
       },
-      {
+      "srManage": {
         "category": "Mobile App",
         "featureImage": "data/project/srManage/images/feature.png",
         "features": [
@@ -340,7 +340,7 @@
         "title": "SR Manage",
         "url": "#!"
       },
-      {
+      "screenRecorder": {
         "category": "Mobile App",
         "featureImage": "assets/images/project-8.jpg",
         "folder": "screenRecorder",
@@ -348,7 +348,7 @@
         "title": "Screen Recorder",
         "url": "https://github.com/sibbirAhmad/SimpleScreenRecorder"
       },
-      {
+      "javaTailerManage": {
         "category": "Desktop App",
         "featureImage": "data/project/javaTailerManage/images/feature.png",
         "folder": "javaTailerManage",
@@ -356,7 +356,7 @@
         "title": "Shop Manage",
         "url": "#!"
       },
-      {
+      "webDbProject": {
         "category": "Web App",
         "featureImage": "data/project/webDbProject/images/feature.png",
         "features": [
@@ -396,7 +396,7 @@
         "title": "Web Database Project",
         "url": "#!"
       },
-      {
+      "insafServiceWeb": {
         "category": "Web Development",
         "featureImage": "data/project/insafServiceWeb/images/feature.png",
         "features": [
@@ -436,7 +436,7 @@
         "title": "Insaf Service Web",
         "url": "#!"
       }
-    ],
+    },
     "services": [
       {
         "details": "Dynamic porfolio with json data",

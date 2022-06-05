@@ -56,18 +56,25 @@ overlay.addEventListener("click", testimonialsModalFunc);
 
 getProjects();
 function getProjects() {
-  fetch("data.json")
+  fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/data.json")
       .then(response => {
           return response.json();
       })
       .then(jsondata => showProjects(jsondata));
+//   fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/projects.json")
+// .then(function(response) {
+//   return response.json();
+// }).then(jsondata =>  showProjects(jsondata)
+// ).catch(function() {
+//   console.log("Can't get data from firebase");
+// });
 
 }
 function showProjects(data){
   var projects = data.projects;
-
-for(let i in projects){
-  var project = projects[i];
+  
+for(var key in projects){
+  var project = projects[key];
 
   //Todo : Creating dynamic element
   var projejctItem = document.createElement("li");
