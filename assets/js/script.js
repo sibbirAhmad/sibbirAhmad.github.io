@@ -56,7 +56,8 @@ overlay.addEventListener("click", testimonialsModalFunc);
 
 getProjects();
 function getProjects() {
-  fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/data.json")
+  // fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/data.json")
+  fetch("data2.json")
       .then(response => {
           return response.json();
       })

@@ -1,618 +1,753 @@
 {
     "projects": {
-        "fingerDoorLock": {
-            "category": "IoT",
-            "featureImage": "data/project/fingerDoorLock/feature.jpg",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "folder": "fingerDoorLock",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "C++",
-            "title": "SS Finger Door Lock with GPRS",
-            "url": "#!"
-        },
-        "insafGpsDevice": {
-            "category": "IoT",
-            "featureImage": "assets/images/p_gps-tracker.jpg",
-            "folder": "insafGpsTracker",
-            "language": "c++",
-            "title": "Bike Gps Tracker",
-            "url": "#!",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ]
-        },
-        "febuReader": {
-            "category": "Mobile App",
-            "featureImage": "data/project/febuReader/images/feature.png",
-            "folder": "febuReader",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java,php",
-            "title": "Febu Reader",
-            "url": "#!"
-        },
-        "insafGpsTracker": {
-            "category": "Mobile App",
-            "featureImage": "data/project/insafGpsTracker/images/feature.png",
-            "features": [
-                {
-                    "details": "To use this GPS Device you don’t required any monthly or yearly billing",
-                    "name": "No Billing Charge"
-                },
-                {
-                    "details": "Very easy to setup<br>  Account will be created automatically by the device using your device number",
-                    "name": "Simple Setup"
-                },
-                {
-                    "details": "Registration  will be completed by the device automatically by it’s number and pin",
-                    "name": "Auto Registration"
-                },
-                {
-                    "details": "You can set your fixed area for your vehicle, and you will get a sms and notification alert if it go out of your area",
-                    "name": "Area Alrert"
-                }
-            ],
-            "folder": "insafGpsTracker",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "4.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java,php,Firebase,GMap SDK",
-            "title": "Insaf GPS Tracker",
-            "url": "#!"
-        },
-        "salahTime": {
-            "category": "Mobile App",
-            "featureImage": "data/project/salahTime/images/feature.png",
-            "features": [
-                {
-                    "details": "This app can calculate salah Time without any internet or network connection",
-                    "name": "Full Offline"
-                },
-                {
-                    "details": "Your phone will will be auto silent during Salah Time",
-                    "name": "Auto Silent Mode"
-                },
-                {
-                    "details": "No Ad will disturb you",
-                    "name": "100% Add free"
-                },
-                {
-                    "details": "If you are expert, you can set your location manually",
-                    "name": "Manual Latitude Logitude Setup"
-                }
-            ],
-            "folder": "salahTime",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java",
-            "title": "Salah Time",
-            "url": "#!"
-        },
-        "eBillTeletalk": {
-            "category": "Mobile App",
-            "featureImage": "data/project/eBillTeletalk/images/feature.png",
-            "features": [
-                {
-                    "details": "Just in two click you can pay your bill. This app will autometically handle every process",
-                    "name": "Easy to pay"
-                },
-                {
-                    "details": "You can pay your electricity bill just by scanning your bill paper",
-                    "name": "Payment by Scan"
-                },
-                {
-                    "details": "To use this app, not required any internet connection",
-                    "name": "Offline"
-                },
-                {
-                    "details": "All your payment will be store in database",
-                    "name": "History"
-                },
-                {
-                    "details": "You can monitor your balance easily",
-                    "name": "Balence Monitoring"
-                }
-            ],
-            "folder": "eBillTeletalk",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java,Firebase ML",
-            "title": "Electric Bill Payment",
-            "url": "#!"
-        },
-        "svid": {
-            "category": "Mobile App",
-            "featureImage": "data/project/svid/images/feature.jpg",
-            "features": [
-                {
-                    "details": "This app is developed in Bangla Language",
-                    "name": "Bangla Supported"
-                },
-                {
-                    "details": "You can download youtube video jus by a single click",
-                    "name": "Easy To Download YouTube Videp"
-                },
-                {
-                    "details": "You can also download Any Kind of facebook Video",
-                    "name": "Facebook Video and Audio Download"
-                },
-                {
-                    "details": "All your payment will be store in database",
-                    "name": "History"
-                },
-                {
-                    "details": "You can monitor your balance easily",
-                    "name": "Balence Monitoring"
-                }
-            ],
-            "folder": "svid",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java",
-            "title": "sVid (Video Downloader_",
-            "url": "https://sibbirahmad.github.io/sVid/"
-        },
-        "alif": {
-            "category": "Mobile App",
-            "featureImage": "data/project/alif/images/feature.png",
-            "features": [
-                {
-                    "details": "You can create Quick Reminer from notification",
-                    "name": "Quick Reminde"
-                },
-                {
-                    "details": "You can share your reminder with your friends through internet",
-                    "name": "Share With your Friends"
-                },
-                {
-                    "details": "Easily you can track the progress",
-                    "name": "Track progress"
-                }
-            ],
-            "folder": "alif",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java,Sinch SDK",
-            "title": "Alif (Shareable Reminder)",
-            "url": "#!"
-        },
-        "gunabatiShop": {
-            "category": "Mobile App",
-            "featureImage": "assets/images/gunabatiShop.webp",
-            "folder": "gunabatiShop",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java [PlayStore]",
-            "title": "Gunabati Sop",
-            "url": "https://play.google.com/store/apps/details?id=com.gunabatishop"
-        },
-        "ayanShop": {
-            "category": "Mobile App",
-            "featureImage": "assets/images/project-4.png",
-            "folder": "ayanShop",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java [PlayStore]",
-            "title": "Ayan Shop",
-            "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop"
-        },
-        "srManage": {
-            "category": "Mobile App",
-            "featureImage": "data/project/srManage/images/feature.png",
-            "features": [
-                {
-                    "details": "This app is developed in Bangla Language",
-                    "name": "Bangla Supported"
-                },
-                {
-                    "details": "You can download youtube video jus by a single click",
-                    "name": "Easy To Download YouTube Videp"
-                },
-                {
-                    "details": "You can also download Any Kind of facebook Video",
-                    "name": "Facebook Video and Audio Download"
-                },
-                {
-                    "details": "All your payment will be store in database",
-                    "name": "History"
-                },
-                {
-                    "details": "You can monitor your balance easily",
-                    "name": "Balence Monitoring"
-                }
-            ],
-            "folder": "srManage",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java,Sinch SDK",
-            "title": "SR Manage",
-            "url": "#!"
-        },
-        "screenRecorder": {
-            "category": "Mobile App",
-            "featureImage": "assets/images/project-8.jpg",
-            "folder": "screenRecorder",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java",
-            "title": "Screen Recorder",
-            "url": "https://github.com/sibbirAhmad/SimpleScreenRecorder"
-        },
-        "javaTailerManage": {
-            "category": "Desktop App",
-            "featureImage": "data/project/javaTailerManage/images/feature.png",
-            "folder": "javaTailerManage",
-            "features": [
-                {
-                    "details": "This Device is very easy to setup",
-                    "name": "Easy Setup"
-                },
-                {
-                    "details": "You can control your device using sms",
-                    "name": "Offline/SMS Control"
-                }
-            ],
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "Java",
-            "title": "Shop Manage",
-            "url": "#!"
-        },
-        "webDbProject": {
-            "category": "Web App",
-            "featureImage": "data/project/webDbProject/images/feature.png",
-            "features": [
-                {
-                    "details": "Email verification using php",
-                    "name": "Email Verification"
-                },
-                {
-                    "details": "Using Raw php",
-                    "name": "Forgot Password"
-                },
-                {
-                    "details": "",
-                    "name": "MySql Database"
-                }
-            ],
-            "folder": "webDbProject",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "HTML, CSS, JavaScript,PHP,MySQL",
-            "title": "Web Database Project",
-            "url": "#!"
-        },
-        "insafServiceWeb": {
-            "category": "Web Development",
-            "featureImage": "data/project/insafServiceWeb/images/feature.png",
-            "features": [
-                {
-                    "details": "",
-                    "name": "Track your Bike from anywhere, any time"
-                },
-                {
-                    "details": "",
-                    "name": "Track Current speed"
-                },
-                {
-                    "details": "",
-                    "name": "Monitor Fuel"
-                }
-            ],
-            "folder": "insafServiceWeb",
-            "images": [
-                {
-                    "src": "feature.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "1.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "2.png",
-                    "title": "image title"
-                },
-                {
-                    "src": "3.png",
-                    "title": "image title"
-                }
-            ],
-            "language": "HTML, CSS, JavaScript,PHP,MySQL,IoT",
-            "title": "Insaf Service Web",
-            "url": "#!"
-        }
+      "insafGpsTracker": {
+        "category": "Mobile App",
+        "featureImage": "data/project/insafGpsTracker/images/feature.png",
+        "features": [
+          {
+            "details": "To use this GPS Device you don’t required any monthly or yearly billing",
+            "name": "No Billing Charge"
+          },
+          {
+            "details": "Very easy to setup<br>  Account will be created automatically by the device using your device number",
+            "name": "Simple Setup"
+          },
+          {
+            "details": "Registration  will be completed by the device automatically by it’s number and pin",
+            "name": "Auto Registration"
+          },
+          {
+            "details": "If you have more than one vehicle, don’t worry. You can control all of them from a single app or master account",
+            "name": "Control Multiple Vehicle from a single Account or App"
+          },
+          {
+            "details": "Your All Vehicles will be shown in a single Map<br>  <b>Real Time Update<b>",
+            "name": "Live Map With All Vehicles"
+          },
+          {
+            "details": "You can share your vehicle <br>Real Time<br> location with others",
+            "name": "Live Location Share"
+          },
+          {
+            "details": "You can update your vehicle profile remotely",
+            "name": "Update vehicle profile"
+          },
+          {
+            "details": "You can directly call your driver remotely",
+            "name": "Direct call to driver"
+          },
+          {
+            "details": "You can set some location, Where your vehicle should no go.<br  If vehicle enter these areas then, you will get instant alert by SMS and Notification.",
+            "name": "Area Restriction"
+          },
+          {
+            "details": "You can set your vehicle speed Limit. If limit crossed then you will get notification",
+            "name": "Over Speed Alert"
+          },
+          {
+            "details": "All Alert and Data Like Speed, Traveled distance, Traveled area will be saved by date<br>  you can check it any time by date",
+            "name": "Overview By Date"
+          },
+          {
+            "details": "It;s a great feature of Insaf GPS Tracker. <br>  If your will not run for some days, then you can active power saving mode.<br>  Your device will be totally turn off, but it will active agian automatically when vehicle will be started",
+            "name": "Ultra Power Saving Mode"
+          },
+          {
+            "details": "The device has builtin strong battery backup <br>  Which have ability to run device for 2 days.",
+            "name": "Strong Battery Backup"
+          },
+          {
+            "details": "Device will be receive call automatically. Using this functionality you will able to listen what are happening in your vehicles",
+            "name": "Live Listen what happening in your vehicle"
+          },
+          {
+            "details": "Device will purchase internet package automatically when required",
+            "name": "Auto Internet package purchase"
+          }
+        ],
+        "folder": "insafGpsTracker",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          },
+          {
+            "src": "4.png",
+            "title": "image Title"
+          }
+        ],
+        "language": "Java,php,Firebase,GMap SDK",
+        "title": "Insaf GPS Tracker",
+        "url": "#!"
+      },
+      "alif": {
+        "category": "Mobile App",
+        "featureImage": "data/project/alif/images/feature.png",
+        "features": [
+          {
+            "details": "You can create Quick Reminer from notification",
+            "name": "Quick Reminde"
+          },
+          {
+            "details": "You can share your reminder with your friends through internet",
+            "name": "Share With your Friends"
+          },
+          {
+            "details": "Easily you can track the progress",
+            "name": "Track progress"
+          }
+        ],
+        "folder": "alif",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,Sinch SDK",
+        "title": "Alif (Shareable Reminder)",
+        "url": "#!"
+      },
+      "ayanShop": {
+        "category": "Mobile App",
+        "featureImage": "assets/images/project-4.png",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "ayanShop",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java [PlayStore]",
+        "title": "Ayan Shop",
+        "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop"
+      },
+      "eBillTeletalk": {
+        "category": "Mobile App",
+        "featureImage": "data/project/eBillTeletalk/images/feature.png",
+        "features": [
+          {
+            "details": "Just in two click you can pay your bill. This app will autometically handle every process",
+            "name": "Easy to pay"
+          },
+          {
+            "details": "You can pay your electricity bill just by scanning your bill paper",
+            "name": "Payment by Scan"
+          },
+          {
+            "details": "To use this app, not required any internet connection",
+            "name": "Offline"
+          },
+          {
+            "details": "All your payment will be store in database",
+            "name": "History"
+          },
+          {
+            "details": "You can monitor your balance easily",
+            "name": "Balence Monitoring"
+          }
+        ],
+        "folder": "eBillTeletalk",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,Firebase ML",
+        "title": "Electric Bill Payment",
+        "url": "#!"
+      },
+      "febuReader": {
+        "category": "Mobile App",
+        "featureImage": "data/project/febuReader/images/feature.png",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "febuReader",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,php",
+        "title": "Febu Reader",
+        "url": "#!"
+      },
+      "fingerDoorLock": {
+        "category": "IoT",
+        "featureImage": "data/project/fingerDoorLock/feature.jpg",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "fingerDoorLock",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "C,C++,PHP",
+        "title": "Finger Door Lock with GPRS",
+        "url": "#!"
+      },
+      "gunabatiShop": {
+        "category": "Mobile App",
+        "featureImage": "assets/images/gunabatiShop.webp",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "gunabatiShop",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java [PlayStore]",
+        "title": "Gunabati Sop",
+        "url": "https://play.google.com/store/apps/details?id=com.gunabatishop"
+      },
+      "insafGpsDevice": {
+        "category": "IoT",
+        "featureImage": "assets/images/p_gps-tracker.jpg",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "insafGpsTracker",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "c++",
+        "title": "Bike Gps Tracker",
+        "url": "#!"
+      },
+     
+      "insafServiceWeb": {
+        "category": "Web Development",
+        "featureImage": "data/project/insafServiceWeb/images/feature.png",
+        "features": [
+          {
+            "details": "",
+            "name": "Track your Bike from anywhere, any time"
+          },
+          {
+            "details": "",
+            "name": "Track Current speed"
+          },
+          {
+            "details": "",
+            "name": "Monitor Fuel"
+          }
+        ],
+        "folder": "insafServiceWeb",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "HTML, CSS, JavaScript,PHP,MySQL,IoT",
+        "title": "Insaf Service Web",
+        "url": "#!"
+      },
+      "javaTailerManage": {
+        "category": "Desktop App",
+        "featureImage": "data/project/javaTailerManage/images/feature.png",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "javaTailerManage",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java",
+        "title": "Shop Manage",
+        "url": "#!"
+      },
+      "salahTime": {
+        "category": "Mobile App",
+        "featureImage": "data/project/salahTime/images/feature.png",
+        "features": [
+          {
+            "details": "This app can calculate salah Time without any internet or network connection",
+            "name": "Full Offline"
+          },
+          {
+            "details": "Your phone will will be auto silent during Salah Time",
+            "name": "Auto Silent Mode"
+          },
+          {
+            "details": "No Ad will disturb you",
+            "name": "100% Add free"
+          },
+          {
+            "details": "If you are expert, you can set your location manually",
+            "name": "Manual Latitude Logitude Setup"
+          }
+        ],
+        "folder": "salahTime",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java",
+        "title": "Salah Time",
+        "url": "#!"
+      },
+      "screenRecorder": {
+        "category": "Mobile App",
+        "featureImage": "assets/images/project-8.jpg",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "screenRecorder",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java",
+        "title": "Screen Recorder",
+        "url": "https://github.com/sibbirAhmad/SimpleScreenRecorder"
+      },
+      "srManage": {
+        "category": "Mobile App",
+        "featureImage": "data/project/srManage/images/feature.png",
+        "features": [
+          {
+            "details": "Using this app you will able to create, manage and analysis your order very easy and quickly.<br> Also all selling report will send to the admin.",
+            "name": "Are you a SR? This app is for you."
+          },
+          {
+            "details": "Using this app you will able to create your order very easily and Quickly, Where your price will be auto calculate by the quantity.",
+            "name": "Easy Order creation with auto price and availability calculationp"
+          },
+          {
+            "details": "Your all order will be distributed automatically by date and place <br> And Also an auto list will be created of order product with quantity ",
+            "name": "Auto Order Analysis and Distribution"
+          },
+          {
+            "details": "It will generate a order report by date and auto send to admin ",
+            "name": "Auto Report Generate"
+          },
+          {
+            "details": "It will show a required product list, which will help you to inform which product need",
+            "name": "Show Required Product List"
+          },
+          {
+            "name":"Manage Multiple SR ",
+            "details":"If multiple SR works under your control, you can manage them very easily using this app."
+          },
+          {
+            "name":"Auto Sync",
+            "details":"All your update and report will automatically sync to online "
+          }
+    
+        ],
+        "folder": "srManage",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,Sinch SDK",
+        "title": "SR Manage",
+
+        "url": "#!"
+      },
+      "svid": {
+        "category": "Mobile App",
+        "featureImage": "data/project/svid/images/feature.jpg",
+        "features": [
+          {
+            "details": "This app is developed in Bangla Language",
+            "name": "Bangla Supported"
+          },
+          {
+            "details": "You can download youtube video jus by a single click",
+            "name": "Easy To Download YouTube Videp"
+          },
+          {
+            "details": "You can also download Any Kind of facebook Video",
+            "name": "Facebook Video and Audio Download"
+          },
+          {
+            "details": "All your payment will be store in database",
+            "name": "History"
+          },
+          {
+            "details": "You can monitor your balance easily",
+            "name": "Balence Monitoring"
+          }
+        ],
+        "folder": "svid",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java",
+        "title": "sVid (Video Downloader_",
+        "url": "https://sibbirahmad.github.io/sVid/"
+      },
+      "webDbProject": {
+        "category": "Web App",
+        "featureImage": "data/project/webDbProject/images/feature.png",
+        "features": [
+          {
+            "details": "Email verification using php",
+            "name": "Email Verification"
+          },
+          {
+            "details": "Using Raw php",
+            "name": "Forgot Password"
+          },
+          {
+            "details": "",
+            "name": "MySql Database"
+          }
+        ],
+        "folder": "webDbProject",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "HTML, CSS, JavaScript,PHP,MySQL",
+        "title": "Web Database Project",
+        "url": "#!"
+      },
+      "dynamicPortfolio": {
+        "category": "Web App",
+        "featureImage": "data/project/dynamicPortfolio/images/feature.png",
+        "features": [
+          {
+            "details": "",
+            "name": "Upadate your project and other info dynamically"
+          }
+        ],
+        "folder": "dynamicPortfolio",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "HTML, CSS, JavaScript,Firebase,JSON",
+        "title": "Dynamic Portfolio with Firebase and Github",
+        "url": "https://sibbirahmad.github.io/"
+      },
+      "electricityMonitoring": {
+        "category": "Mobile App",
+        "featureImage": "data/project/electricityMonitoring/images/feature.png",
+        "features": [
+          {
+            "name": "Live Electricity Update in Map",
+            "details": "You will able to know where electricity are available or on availble on Map"
+          },
+          {
+            "name": "Notification in your Area",
+            "details": "If there have any update of electricity in your area, you will able know it by notification"
+          },
+          {
+            "details": "You will able to know your countries electricity's condition",
+            "name": "Graphical view of countries electricity "
+          },
+          {
+            "name":"Instant Report",
+            "details":"You will able to report on the problem of your area's electricity to higher authority using this app"
+          }
+        ],
+        "folder": "electricityMonitoring",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,HTML,CSS,MC,IOT",
+        "title": "Electricity Monitoring System",
+        "url": "#!"
+      }
     },
     "services": [
-        {
-            "details": "Dynamic porfolio with json data",
-            "name": "Dynamic Porfolio Github"
-        },
-        {
-            "details": "Dynamic porfolio with json data",
-            "name": "Google App Script"
-        }
+      {
+        "details": "Dynamic porfolio with json data",
+        "name": "Dynamic Porfolio Github"
+      },
+      {
+        "details": "Dynamic porfolio with json data",
+        "name": "Google App Script"
+      }
     ]
-}
+  }
