@@ -92,6 +92,248 @@
         "title": "Insaf GPS Tracker",
         "url": "#!"
       },
+      "srManage": {
+        "category": "Mobile App",
+        "featureImage": "data/project/srManage/images/feature.png",
+        "features": [
+          {
+            "details": "Using this app you will able to create, manage and analysis your order very easy and quickly.<br> Also all selling report will send to the admin.",
+            "name": "Are you a SR? This app is for you."
+          },
+          {
+            "details": "Using this app you will able to create your order very easily and Quickly, Where your price will be auto calculate by the quantity.",
+            "name": "Easy Order creation with auto price and availability calculationp"
+          },
+          {
+            "details": "Your all order will be distributed automatically by date and place <br> And Also an auto list will be created of order product with quantity ",
+            "name": "Auto Order Analysis and Distribution"
+          },
+          {
+            "details": "It will generate a order report by date and auto send to admin ",
+            "name": "Auto Report Generate"
+          },
+          {
+            "details": "It will show a required product list, which will help you to inform which product need",
+            "name": "Show Required Product List"
+          },
+          {
+            "name":"Manage Multiple SR ",
+            "details":"If multiple SR works under your control, you can manage them very easily using this app."
+          },
+          {
+            "name":"Auto Sync",
+            "details":"All your update and report will automatically sync to online "
+          }
+    
+        ],
+        "folder": "srManage",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,Sinch SDK",
+        "title": "SR Manage",
+
+        "url": "#!"
+      },
+      "svid": {
+        "category": "Mobile App",
+        "featureImage": "data/project/svid/images/feature.png",
+        "features": [
+          {
+            "details": "This app is developed in Bangla Language",
+            "name": "Bangla Supported"
+          },
+          {
+            "details": "You can download youtube video jus by a single click",
+            "name": "Easy To Download YouTube Videp"
+          },
+          {
+            "details": "You can also download Any Kind of facebook Video",
+            "name": "Facebook Video and Audio Download"
+          },
+          {
+            "details": "All your payment will be store in database",
+            "name": "History"
+          },
+          {
+            "details": "You can monitor your balance easily",
+            "name": "Balence Monitoring"
+          }
+        ],
+        "folder": "svid",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,PHP,MYSQL",
+        "title": "sVid (Video Downloader)",
+        "url": "#!"
+      },
+      "febuReader": {
+        "category": "Mobile App",
+        "featureImage": "data/project/febuReader/images/feature.png",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "febuReader",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          },
+          {
+            "src": "4.png",
+            "title": "image title"
+          },
+          {
+            "src": "5.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,php",
+        "title": "Febu Reader",
+        "url": "#!"
+      },
+      "eBillTeletalk": {
+        "category": "Mobile App",
+        "featureImage": "data/project/eBillTeletalk/images/feature.png",
+        "features": [
+          {
+            "details": "Just in two click you can pay your bill. This app will autometically handle every process",
+            "name": "Easy to pay"
+          },
+          {
+            "details": "You can pay your electricity bill just by scanning your bill paper",
+            "name": "Payment by Scan"
+          },
+          {
+            "details": "To use this app, not required any internet connection",
+            "name": "Offline"
+          },
+          {
+            "details": "All your payment will be store in database",
+            "name": "History"
+          },
+          {
+            "details": "You can monitor your balance easily",
+            "name": "Balence Monitoring"
+          }
+        ],
+        "folder": "eBillTeletalk",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java,Firebase ML",
+        "title": "Electric Bill Payment",
+        "url": "#!"
+      },
+      "salahTime": {
+        "category": "Mobile App",
+        "featureImage": "data/project/salahTime/images/feature.png",
+        "features": [
+          {
+            "details": "This app can calculate salah Time without any internet or network connection",
+            "name": "Full Offline"
+          },
+          {
+            "details": "Your phone will will be auto silent during Salah Time",
+            "name": "Auto Silent Mode"
+          },
+          {
+            "details": "No Ad will disturb you",
+            "name": "100% Add free"
+          },
+          {
+            "details": "If you are expert, you can set your location manually",
+            "name": "Manual Latitude Logitude Setup"
+          }
+        ],
+        "folder": "salahTime",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "Java",
+        "title": "Salah Time",
+        "url": "#!"
+      },
       "alif": {
         "category": "Mobile App",
         "featureImage": "data/project/alif/images/feature.png",
@@ -168,90 +410,8 @@
         "title": "Ayan Shop",
         "url": "https://play.google.com/store/apps/details?id=com.ayansonlineshop"
       },
-      "eBillTeletalk": {
-        "category": "Mobile App",
-        "featureImage": "data/project/eBillTeletalk/images/feature.png",
-        "features": [
-          {
-            "details": "Just in two click you can pay your bill. This app will autometically handle every process",
-            "name": "Easy to pay"
-          },
-          {
-            "details": "You can pay your electricity bill just by scanning your bill paper",
-            "name": "Payment by Scan"
-          },
-          {
-            "details": "To use this app, not required any internet connection",
-            "name": "Offline"
-          },
-          {
-            "details": "All your payment will be store in database",
-            "name": "History"
-          },
-          {
-            "details": "You can monitor your balance easily",
-            "name": "Balence Monitoring"
-          }
-        ],
-        "folder": "eBillTeletalk",
-        "images": [
-          {
-            "src": "feature.png",
-            "title": "image title"
-          },
-          {
-            "src": "1.png",
-            "title": "image title"
-          },
-          {
-            "src": "2.png",
-            "title": "image title"
-          },
-          {
-            "src": "3.png",
-            "title": "image title"
-          }
-        ],
-        "language": "Java,Firebase ML",
-        "title": "Electric Bill Payment",
-        "url": "#!"
-      },
-      "febuReader": {
-        "category": "Mobile App",
-        "featureImage": "data/project/febuReader/images/feature.png",
-        "features": [
-          {
-            "details": "This Device is very easy to setup",
-            "name": "Easy Setup"
-          },
-          {
-            "details": "You can control your device using sms",
-            "name": "Offline/SMS Control"
-          }
-        ],
-        "folder": "febuReader",
-        "images": [
-          {
-            "src": "feature.png",
-            "title": "image title"
-          },
-          {
-            "src": "1.png",
-            "title": "image title"
-          },
-          {
-            "src": "2.png",
-            "title": "image title"
-          },
-          {
-            "src": "3.png",
-            "title": "image title"
-          }
-        ],
-        "language": "Java,php",
-        "title": "Febu Reader",
-        "url": "#!"
-      },
+     
+     
       "fingerDoorLock": {
         "category": "IoT",
         "featureImage": "data/project/fingerDoorLock/feature.jpg",
@@ -268,7 +428,7 @@
         "folder": "fingerDoorLock",
         "images": [
           {
-            "src": "feature.png",
+            "src": "feature.jpg",
             "title": "image title"
           },
           {
@@ -437,50 +597,7 @@
         "title": "Shop Manage",
         "url": "#!"
       },
-      "salahTime": {
-        "category": "Mobile App",
-        "featureImage": "data/project/salahTime/images/feature.png",
-        "features": [
-          {
-            "details": "This app can calculate salah Time without any internet or network connection",
-            "name": "Full Offline"
-          },
-          {
-            "details": "Your phone will will be auto silent during Salah Time",
-            "name": "Auto Silent Mode"
-          },
-          {
-            "details": "No Ad will disturb you",
-            "name": "100% Add free"
-          },
-          {
-            "details": "If you are expert, you can set your location manually",
-            "name": "Manual Latitude Logitude Setup"
-          }
-        ],
-        "folder": "salahTime",
-        "images": [
-          {
-            "src": "feature.png",
-            "title": "image title"
-          },
-          {
-            "src": "1.png",
-            "title": "image title"
-          },
-          {
-            "src": "2.png",
-            "title": "image title"
-          },
-          {
-            "src": "3.png",
-            "title": "image title"
-          }
-        ],
-        "language": "Java",
-        "title": "Salah Time",
-        "url": "#!"
-      },
+     
       "screenRecorder": {
         "category": "Mobile App",
         "featureImage": "assets/images/project-8.jpg",
@@ -516,112 +633,6 @@
         "language": "Java",
         "title": "Screen Recorder",
         "url": "https://github.com/sibbirAhmad/SimpleScreenRecorder"
-      },
-      "srManage": {
-        "category": "Mobile App",
-        "featureImage": "data/project/srManage/images/feature.png",
-        "features": [
-          {
-            "details": "Using this app you will able to create, manage and analysis your order very easy and quickly.<br> Also all selling report will send to the admin.",
-            "name": "Are you a SR? This app is for you."
-          },
-          {
-            "details": "Using this app you will able to create your order very easily and Quickly, Where your price will be auto calculate by the quantity.",
-            "name": "Easy Order creation with auto price and availability calculationp"
-          },
-          {
-            "details": "Your all order will be distributed automatically by date and place <br> And Also an auto list will be created of order product with quantity ",
-            "name": "Auto Order Analysis and Distribution"
-          },
-          {
-            "details": "It will generate a order report by date and auto send to admin ",
-            "name": "Auto Report Generate"
-          },
-          {
-            "details": "It will show a required product list, which will help you to inform which product need",
-            "name": "Show Required Product List"
-          },
-          {
-            "name":"Manage Multiple SR ",
-            "details":"If multiple SR works under your control, you can manage them very easily using this app."
-          },
-          {
-            "name":"Auto Sync",
-            "details":"All your update and report will automatically sync to online "
-          }
-    
-        ],
-        "folder": "srManage",
-        "images": [
-          {
-            "src": "feature.png",
-            "title": "image title"
-          },
-          {
-            "src": "1.png",
-            "title": "image title"
-          },
-          {
-            "src": "2.png",
-            "title": "image title"
-          },
-          {
-            "src": "3.png",
-            "title": "image title"
-          }
-        ],
-        "language": "Java,Sinch SDK",
-        "title": "SR Manage",
-
-        "url": "#!"
-      },
-      "svid": {
-        "category": "Mobile App",
-        "featureImage": "data/project/svid/images/feature.jpg",
-        "features": [
-          {
-            "details": "This app is developed in Bangla Language",
-            "name": "Bangla Supported"
-          },
-          {
-            "details": "You can download youtube video jus by a single click",
-            "name": "Easy To Download YouTube Videp"
-          },
-          {
-            "details": "You can also download Any Kind of facebook Video",
-            "name": "Facebook Video and Audio Download"
-          },
-          {
-            "details": "All your payment will be store in database",
-            "name": "History"
-          },
-          {
-            "details": "You can monitor your balance easily",
-            "name": "Balence Monitoring"
-          }
-        ],
-        "folder": "svid",
-        "images": [
-          {
-            "src": "feature.png",
-            "title": "image title"
-          },
-          {
-            "src": "1.png",
-            "title": "image title"
-          },
-          {
-            "src": "2.png",
-            "title": "image title"
-          },
-          {
-            "src": "3.png",
-            "title": "image title"
-          }
-        ],
-        "language": "Java",
-        "title": "sVid (Video Downloader_",
-        "url": "https://sibbirahmad.github.io/sVid/"
       },
       "webDbProject": {
         "category": "Web App",
