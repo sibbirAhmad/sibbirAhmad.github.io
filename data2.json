@@ -203,13 +203,66 @@
         "featureImage": "data/project/febuReader/images/feature.png",
         "features": [
           {
-            "details": "This Device is very easy to setup",
-            "name": "Easy Setup"
+            "details": "Download any(public or private) Facebook and YouTube video and Audio with HD ",
+            "name": "Download Facebook and YouTube with HD Quality"
           },
           {
-            "details": "You can control your device using sms",
-            "name": "Offline/SMS Control"
+            "details": "Normally you can not copy text from Facebook lite. But this app can help you to copy text from Facebook Lite. <br> Just copy/or share post URL with the app, then it will automatically copy the text and also, it can download all videos and photos if available ",
+            "name": "Parse(Copy) Facebook Lite Text using post Link"
+          },{
+            "name":"Download all Facebook Media(Photo+Video) with a single click",
+            "details":"Some time we need to download all/multiple photos from some Facebook post, but normally it is not possible to download all photos with a single click, but this app has a great feature to download all photos from any Facebook post."
+          },
+          {
+            "name":"Quick Translation any copied text",
+            "details":"Are you reading some thing in Facebook, google or anywhere, but need instant translation or word meaning? <br>This app can help you. It have a great feature to translate on screen. even you will able to find the vocabulary list of any text. "
+          },
+          {
+            "name":"Show vocabulary list of your copied text or note",
+            "details":"This app will help you to find vocabulary list of your text or notes"
+          },
+          {
+            "name":"Live Translation",
+            "details":"This app can help you to talk with Foreigner by Live Translating and Listening.<br> Also Can Live Translate by Speaking"
+          },
+          {
+            "name":"Live Conversation with Other Language",
+            "details":"Easy to talk with foreigner. Just set  the language and start conversation"
+          },
+          {
+            "name":"Ad Free browse",
+            "details":"FebuReader will provide you AdFree for browser free"
+          },
+          {
+            "name":"TTS Reader",
+            "details":"This app has Text to speech functionality to Read news, Notes and more"
+          },
+          {
+            "name":"Live News Collection and Listen by TTS",
+            "details":"It’s a great feature  of FebuReader that you can listen news from your favorite news papers"
+          },
+          {
+            "name":"On Screen Translation",
+            "details":"You will able to translate on screen from any where of your phone screen"
+          },
+          {
+            "name":"On Screen Browser",
+            "details":"Instant floating browsing on screen"
+
+          },
+          {
+            "name":"On Screen Dictionary",
+            "details":"Quicker floating dictionary when you needed"
+          },
+          {
+            "name":"Vocabulary List",
+            "details":"You will able to add your favorite words to your vocabulary list"
+          },
+          {
+            "name":"Top News Papers List",
+            "details":"It has collection of world top newspapers list"
           }
+    
         ],
         "folder": "febuReader",
         "images": [
