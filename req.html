@@ -5,17 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+         
+          <script>
+         
+        /* Add "https://api.ipify.org?format=json" statement
+                   this will communicate with the ipify servers in
+                   order to retrieve the IP address $.getJSON will
+                   load JSON-encoded data from the server using a
+                   GET HTTP request */
+                    
+        $.getJSON("https://api.ipify.org?format=json", function(data) {
+             
+            // Setting text of element P with id gfg
+            $("#gfg").html(data.ip);
+        })
+        </script>
+    
 </head>
 <body>
-    <script>
-fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/projects.json")
+  <center>
+    <h1>GeeksforGeeks</h1>
+    <h3>Public IP Address of user is:</h3>
+    <p id="gfg"></p>
+
+</center>
+<script>
+getIp();
+function saveIp(ipInfo){
+  fetch("https://script.google.com/macros/s/AKfycbzSpCaHGOAHbd4Z1IOTubuMh3713f_UGVkFtZgL3ow5wkK5cHWKl5A2zJwU2TYgfAnO/exec"+ipInfo)
 .then(function(response) {
-  return response.json();
+  return response.text();
 }).then(function(data) {
   console.log(data);
 }).catch(function() {
   console.log("Can't get data from firebase");
 });
-    </script>
+}
+function parseIp(url) {
+  return fetch(url).then(res => res.json());
+}
+function getIp(){
+  let apiKey = '1561a6cc7032dd0631572852663de764131f06bf49515d4f1e48c2a8';
+  parseIp(`https://api.ipdata.co?api-key=${apiKey}`).then(data => {
+  
+  var country_name = data.country_name;
+  var region = data.region;
+  var ip = data.ip;
+  var param = "?ip="+ip+"&country="+country_name+"&region="+region
+  saveIp(param);
+  console.log(param);
+  // so many more properties
+});
+}
+
+</script>
+    
 </body>
 </html>
