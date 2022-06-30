@@ -1027,17 +1027,17 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="#fsubmit" name="contact_form" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input id="mn"type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea id="message" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" id="fsubmit" type="submit" onclick="sendMessage(event)" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -1062,7 +1062,54 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
   <script>
+  
+
+  //#region Send Message
+   function sendMessage(event){
+    var name = document.getElementsByName("fullname")[0].value ;
+    var message = document.getElementsByName("message")[0].value ;
+    var email = document.getElementsByName("email")[0].value ;
+    Swal.fire('Sending yor message...');
+    swal.showLoading();
+
+  var url = "https://script.google.com/macros/s/AKfycbyuD0OBWsJCqGFR054glidOYxf7_gzrXyKjQDHKWAkyF5h69LOTeG3BCzZmn_FIV0LQ/exec";
+
+const data = { "name":name,"message":message,"email":email};
+event.preventDefault(); 
+
+fetch(url, {
+  method: 'POST', // or 'PUT'
+  headers: {
+     'Content-Type': 'application/x-www-form-urlencoded',
+           },
+  body: JSON.stringify(data),
+})
+  .then(response => response.text())
+  .then(data => {
+    
+      Swal.update({
+          icon: 'success',
+          title: "Successfully sent!",
+          text: "Thank you",
+        });
+    
+    Swal.hideLoading();
+
+    //alert("Successfully sent!");
+      //console.log('Success:', data);
+     })
+ .catch((error) => {
+         console.error('Error:', error);
+        
+         //alert("Error : ")
+   });
+    //alert("Hello "+name);   
+}
+  //endregion
+
    function showD(url){
     var monolog = new Monolog({
       content :("<iframe style=\"position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;\" src=\""+url+"\" title=\"description\"></iframe>")
@@ -1072,9 +1119,9 @@
    }
     
    //#region Save Ip To Sheet
-  getIp();
+ getIp();
 function saveIp(ipInfo){
-  fetch("https://script.google.com/macros/s/AKfycbzSpCaHGOAHbd4Z1IOTubuMh3713f_UGVkFtZgL3ow5wkK5cHWKl5A2zJwU2TYgfAnO/exec"+ipInfo)
+  fetch("https://script.google.com/macros/s/AKfycbyuD0OBWsJCqGFR054glidOYxf7_gzrXyKjQDHKWAkyF5h69LOTeG3BCzZmn_FIV0LQ/exec"+ipInfo)
 .then(function(response) {
   return response.text();
 }).then(function(data) {
@@ -1095,12 +1142,12 @@ function getIp(){
   var ip = data.ip;
   var param = "?ip="+ip+"&country="+country_name+"&region="+region
   saveIp(param);
-  console.log(param);
+  //console.log(param);
   // so many more properties
 });
 }
 
-   //endregion
+   //#endregion
   </script>
   
 </body>
