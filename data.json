@@ -1,6 +1,42 @@
 {
     "projects": [
       {
+        "category": "AI",
+        "featureImage": "data/project/fingerDoorLock/feature.jpg",
+        "features": [
+          {
+            "details": "This Device is very easy to setup",
+            "name": "Easy Setup"
+          },
+          {
+            "details": "You can control your device using sms",
+            "name": "Offline/SMS Control"
+          }
+        ],
+        "folder": "fingerDoorLock",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          }
+        ],
+        "language": "C++",
+        "title": "AI Touch Control",
+        "url": "#!"
+      },
+      {
         "category": "IoT",
         "featureImage": "data/project/fingerDoorLock/feature.jpg",
         "features": [
@@ -36,6 +72,7 @@
         "title": "Finger Door Lock with GPRS",
         "url": "#!"
       },
+
       {
         "category": "IoT",
         "featureImage": "assets/images/p_gps-tracker.jpg",
