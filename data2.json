@@ -2,7 +2,7 @@
     "projects": {
       "aiTouchControl": {
         "category": "AI",
-        "featureImage": "data/project/insafGpsTracker/images/feature.png",
+        "featureImage": "data/project/aiTouchPen/images/feature.png",
         "features": [
           {
             "details": "To use this GPS Device you don’t required any monthly or yearly billing",
@@ -65,7 +65,7 @@
             "name": "Auto Internet package purchase"
           }
         ],
-        "folder": "insafGpsTracker",
+        "folder": "aiTouchPen",
         "images": [
           {
             "src": "feature.png",
