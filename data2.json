@@ -1,6 +1,6 @@
 {
     "projects": {
-      "aiTouchControl": {
+      "aiTouchPen": {
         "category": "AI",
         "featureImage": "data/project/aiTouchPen/images/feature.png",
         "features": [
@@ -72,7 +72,7 @@
             "title": "image title"
           },
           {
-            "src": "1.png",
+            "src": "1.mp4",
             "title": "image title"
           },
           {
@@ -90,6 +90,50 @@
         ],
         "language": "Python, c++",
         "title": "AI Touch pen",
+        "url": "data/project/aiTouchPen/index.html"
+      },
+      "autoPresentJavaFx": {
+        "category": "Desktop App",
+        "featureImage": "data/project/autoPresentJavaFx/images/feature.png",
+        "features": [
+          {
+            "details": "Teacher will able to set Time to take live attendance from students.<br> Within the time students will able to save their attendance using their id",
+            "name": "Live Attendance with timer"
+          },
+          {
+            "details": "As Dabase here, I have used Google Sheed, What is very easy to manage and maintenance",
+            "name": "Easy to Manage"
+          },
+          {
+            "details": "As here I have used 'Google Spreadsheet' as Database , it's not required any database cost. It's totally cost free. And data can be manage from speciefic Google Account.",
+            "name": "Zero Cost"
+          }
+        ],
+        "folder": "autoPresentJavaFx",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          },
+          {
+            "src": "4.png",
+            "title": "image Title"
+          }
+        ],
+        "language": "Java FX,Google Sheet Api, Google App Script",
+        "title": "Auto Attendance<br>",
         "url": "#!"
       },
       "insafGpsTracker": {

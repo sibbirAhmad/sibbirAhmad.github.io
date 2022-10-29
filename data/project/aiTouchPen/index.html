@@ -1,136 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Your slider in a simple web page</title>
-
-<style>
-/* body { background-color: #fff; color: #000; padding: 0; margin: 0; } */
-.container { width: 940px; 
-  margin: auto; 
-  padding-top: 1em; }
-.container .ism-slider { margin-left: auto; 
-margin-right: auto; }
-</style>
-
-<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="../../projectView/ism/css/my-slider.css"/>
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:700'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Space+Mono'>
-
-</head>
+<html>
+  <head>
+    <title>
+      Artificial Intelligence
+    </title>
+  </head>
 <body>
-<div class='container'>
 
-  <div class="ism-slider" data-transition_type="zoom" data-play_type="loop" data-image_fx="zoompan" id="my-slider">
-    <ol class="myOl">
-      <li>
-        <img src="">
-        <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
-      </li>
-      <li>
-        <img src="">
-        <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
-      </li>
-      <li>
-        <img src="">
-        <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
-      </li>
-      <li>
-        <img src="">
-        <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
-      </li>
-      <li>
-        <img src="">
-        <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
-      </li>
-    </ol>
-  </div>
-
-<section><h1 id="appNameTitle" class="appTitle">Your slider in a simple web page</h1>
-  <ol class="list">
-    <!-- List Will be Created Here -->
-  </ol>
-
-</section>
-</div>
-
-<script>
-  var d = document.location.pathname;
-  var d1 = d.lastIndexOf('/');
-  var d2 = d.substring(d,d1);  
-  var d3 = d2.substring(d2.lastIndexOf('/')+1)
-
-  getProjects();
-function getProjects() {
-  fetch("../../../data.json")
-      .then(response => {
-          return response.json();
-      })
-      .then(jsondata => showProjects(jsondata));
-
-}
-function showProjects(data){
- console.log(data);
-  var projects = data.projects;
-  
-
-for(let i in projects){
-  var project = projects[i];
-  if(project.folder.includes(d3)){
-    //appNameTitle
-    document.getElementById("appNameTitle").innerHTML= project.title;
-    //Getting Features
-    var feartures = project.features;
-    for(let x in feartures){
-
-    //Features....  
-    var fearture = feartures[x];
-    var featureName = fearture.name;
-    var featureDetails = fearture.details;
-    //Creating feature List
-    var fList = document.createElement("li");
-    fList.className = "item";
-    //Creating Feature Headline
-    var fHead = document.createElement("h2");
-    fHead.className = "headline";
-    fHead.innerHTML = featureName;
-    //Creating feature Description
-    var fSpan = document.createElement("span");
-    fSpan.innerHTML = featureDetails;
-    fList.appendChild(fHead);
-    fList.appendChild(fSpan);
-    document.getElementsByClassName("list")[0].appendChild(fList);
-
-    }
-    
-    //Sliding Image
-    var images = project.images;
-    for(let y in images){
-      var image = images[y];
-      var src = image.src;
-      //Creating Image
-      var imageList = document.createElement("li");
-      //Creating img
-      var img = document.createElement("img");
-      img.src = "images/"+src;
-      imageList.append(img);
-      
-      var v = document.getElementsByClassName("ism-img")[y].src = "images/"+src;
-
-    }
-
-  }
+<h1>AI Touch Pen</h1>
+<p>
+  Convert yout non touch screen devices to touch screen
+  <ul>
+    <li>
+      Control projector with touch using this smart pen
+    </li>
+  </ul> 
+</p>
 
 
-
-}
-
-}
-</script>
-<script src="../../projectView/ism/js/ism-2.2.min.js"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GcqxeTDKL_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
 </html>
