@@ -1,5 +1,97 @@
 {
     "projects": {
+      "aiTouchControl": {
+        "category": "AI",
+        "featureImage": "data/project/insafGpsTracker/images/feature.png",
+        "features": [
+          {
+            "details": "To use this GPS Device you don’t required any monthly or yearly billing",
+            "name": "No Billing Charge"
+          },
+          {
+            "details": "Very easy to setup<br>  Account will be created automatically by the device using your device number",
+            "name": "Simple Setup"
+          },
+          {
+            "details": "Registration  will be completed by the device automatically by it’s number and pin",
+            "name": "Auto Registration"
+          },
+          {
+            "details": "If you have more than one vehicle, don’t worry. You can control all of them from a single app or master account",
+            "name": "Control Multiple Vehicle from a single Account or App"
+          },
+          {
+            "details": "Your All Vehicles will be shown in a single Map<br>  <b>Real Time Update<b>",
+            "name": "Live Map With All Vehicles"
+          },
+          {
+            "details": "You can share your vehicle <br>Real Time<br> location with others",
+            "name": "Live Location Share"
+          },
+          {
+            "details": "You can update your vehicle profile remotely",
+            "name": "Update vehicle profile"
+          },
+          {
+            "details": "You can directly call your driver remotely",
+            "name": "Direct call to driver"
+          },
+          {
+            "details": "You can set some location, Where your vehicle should no go.<br  If vehicle enter these areas then, you will get instant alert by SMS and Notification.",
+            "name": "Area Restriction"
+          },
+          {
+            "details": "You can set your vehicle speed Limit. If limit crossed then you will get notification",
+            "name": "Over Speed Alert"
+          },
+          {
+            "details": "All Alert and Data Like Speed, Traveled distance, Traveled area will be saved by date<br>  you can check it any time by date",
+            "name": "Overview By Date"
+          },
+          {
+            "details": "It;s a great feature of Insaf GPS Tracker. <br>  If your will not run for some days, then you can active power saving mode.<br>  Your device will be totally turn off, but it will active agian automatically when vehicle will be started",
+            "name": "Ultra Power Saving Mode"
+          },
+          {
+            "details": "The device has builtin strong battery backup <br>  Which have ability to run device for 2 days.",
+            "name": "Strong Battery Backup"
+          },
+          {
+            "details": "Device will be receive call automatically. Using this functionality you will able to listen what are happening in your vehicles",
+            "name": "Live Listen what happening in your vehicle"
+          },
+          {
+            "details": "Device will purchase internet package automatically when required",
+            "name": "Auto Internet package purchase"
+          }
+        ],
+        "folder": "insafGpsTracker",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          },
+          {
+            "src": "4.png",
+            "title": "image Title"
+          }
+        ],
+        "language": "Python, c++",
+        "title": "AI Touch pen",
+        "url": "#!"
+      },
       "insafGpsTracker": {
         "category": "Mobile App",
         "featureImage": "data/project/insafGpsTracker/images/feature.png",
