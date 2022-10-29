@@ -1,3 +1,3 @@
 #My Portfolio with Firebase, json (Dynamic)
 
-![SVisit](https://sibbirahmad.github.io/)
+[SVisit](https://sibbirahmad.github.io/)
