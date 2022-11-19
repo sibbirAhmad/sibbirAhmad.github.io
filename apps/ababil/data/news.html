@@ -6,25 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-
-        getLocalJson();
-        function getLocalJson() {
-            // fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/data.json")
-            fetch("news.json")
-                .then(response => {
-                    return response.json();
-                })
-                .then(jsondata => processLocalJson(jsondata));
-        }
-        function processLocalJson(data) {
-            var d = JSON.stringify(data);
-            const obj = JSON.parse(d);
-            console.log("JSON stringify : " + d);
-            console.log("JSON parse  : " + obj);
-            document.getElementById('p').innerHTML = "<data-json>" + d + "<data-json>";
-        }
-    </script>
 </head>
 
 <body>
@@ -48,6 +29,22 @@
             }
             return params;
         }
+        getLocalJson();
+        function getLocalJson() {
+            // fetch("https://fcm-demo-18523-default-rtdb.firebaseio.com/data.json")
+            fetch("news.json")
+                .then(response => {
+                    return response.json();
+                })
+                .then(jsondata => processLocalJson(jsondata));
+        }
+        function processLocalJson(data) {
+            var d = JSON.stringify(data);
+            const obj = JSON.parse(d);
+            console.log("JSON stringify : " + d);
+            console.log("JSON parse  : " + obj);
+            document.getElementById('p').innerHTML = "<data-json>" + d + "<data-json>";
+        }
         const json = {
             "requestFrom": "student",
             "request": "updateSinglePresent",
@@ -66,8 +63,6 @@
                 .then(function (data) {
                     var d = JSON.stringify(data);
                     const obj = JSON.parse(d);
-                    console.log("JSON stringify : " + d);
-                    console.log("JSON parse  : " + obj);
                     document.getElementById('p').innerHTML = "<data-json>" + d + "<data-json>";
                     // let responseCode = obj.responseCode;
                     // let responseMessage = obj.responseMessage;
