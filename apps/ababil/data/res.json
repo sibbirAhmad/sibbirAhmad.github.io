@@ -1,0 +1,52 @@
+{
+    "content": {
+      "name": "news.json",
+      "path": "news.json",
+      "sha": "4c27b7806b20c7e163de66f29421e313fe12b0b3",
+      "size": 21,
+      "url": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/contents/news.json?ref=master",
+      "html_url": "https://github.com/sibbirAhmad/sibbirAhmad.github.io/blob/master/news.json",
+      "git_url": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/git/blobs/4c27b7806b20c7e163de66f29421e313fe12b0b3",
+      "download_url": "https://raw.githubusercontent.com/sibbirAhmad/sibbirAhmad.github.io/master/news.json?token=AQYUPH3JJIZ4LJNUR2WISZ3DPJFOM",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/contents/news.json?ref=master",
+        "git": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/git/blobs/4c27b7806b20c7e163de66f29421e313fe12b0b3",
+        "html": "https://github.com/sibbirAhmad/sibbirAhmad.github.io/blob/master/news.json"
+      }
+    },
+    "commit": {
+      "sha": "f2523848b85a2b588cf58dd2f0142ac17c8cc988",
+      "node_id": "C_kwDOHZwPFNoAKGYyNTIzODQ4Yjg1YTJiNTg4Y2Y1OGRkMmYwMTQyYWMxN2M4Y2M5ODg",
+      "url": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/git/commits/f2523848b85a2b588cf58dd2f0142ac17c8cc988",
+      "html_url": "https://github.com/sibbirAhmad/sibbirAhmad.github.io/commit/f2523848b85a2b588cf58dd2f0142ac17c8cc988",
+      "author": {
+        "name": "Sibbir Ahmad",
+        "email": "70338463+sibbirAhmad@users.noreply.github.com",
+        "date": "2022-11-20T15:41:30Z"
+      },
+      "committer": {
+        "name": "Sibbir Ahmad",
+        "email": "70338463+sibbirAhmad@users.noreply.github.com",
+        "date": "2022-11-20T15:41:30Z"
+      },
+      "tree": {
+        "sha": "296e1e44582152955f6231a11b3f0bd74880abaf",
+        "url": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/git/trees/296e1e44582152955f6231a11b3f0bd74880abaf"
+      },
+      "message": "Message from JS",
+      "parents": [
+        {
+          "sha": "b03487c6b28b63b2be929e9f5afeb88b37b264a8",
+          "url": "https://api.github.com/repos/sibbirAhmad/sibbirAhmad.github.io/git/commits/b03487c6b28b63b2be929e9f5afeb88b37b264a8",
+          "html_url": "https://github.com/sibbirAhmad/sibbirAhmad.github.io/commit/b03487c6b28b63b2be929e9f5afeb88b37b264a8"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    }
+  }

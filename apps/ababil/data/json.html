@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p">Hi</p>
+    <script>
+         getLocalJson();
+        function getLocalJson() {
+            fetch("res.json")
+                .then(response => {
+                    return response.json();
+                })
+                .then(jsondata => processLocalJson(jsondata));
+        }
+        function processLocalJson(data) {
+            console.log(data.content.sha);
+            //console.log("Length : " + obj.length)
+            document.getElementById('p').innerHTML = JSON.stringify(data.content.sha);
+        }
+    </script>
+</body>
+</html>
