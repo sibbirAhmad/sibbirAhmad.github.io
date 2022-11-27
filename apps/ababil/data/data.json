@@ -1,7 +1,7 @@
 {
     "updateCode":1232,
     "appUpdate" : {
-        "versionCode":4,
+        "versionCode":1,
         "source":"web/playstore",
         "dialog":{
             "title":"Update",
