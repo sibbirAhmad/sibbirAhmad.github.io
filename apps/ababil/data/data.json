@@ -10,7 +10,7 @@
             "posButton":"Download Now",
             "negButton":"Cancel",
             "autoCancel":0,
-            "exitOnCancel":1
+            "exitOnCancel":0
         }
     },
     "newUserMessage":{
