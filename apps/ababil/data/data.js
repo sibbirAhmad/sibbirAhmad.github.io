@@ -6,10 +6,11 @@ async function fetchData(url){
 var p = getURLParams();
 var updateCode = p.updateCode;
 var newsCount = p.newsCount;
+var appVersion =p.appVersion
 
 const dataJson = {};
 fetchData("data.json").then(data=>{
-    if(updateCode!=data.updateCode){
+    if(updateCode!=data.updateCode || appVersion< data.appUpdate.versionCode){
         console.log("Need to aupdate app");
         dataJson.appData = data;
     }
