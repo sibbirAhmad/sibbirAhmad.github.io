@@ -4,22 +4,28 @@ async function fetchData(url){
     return data;
 }
 var p = getURLParams();
-var param = p.p;
+var updateCode = p.updateCode;
+var newsCount = p.newsCount;
+
 const dataJson = {};
 fetchData("data.json").then(data=>{
-    if(param!=data.updateCode){
+    if(updateCode!=data.updateCode){
         console.log("Need to aupdate app");
         dataJson.appData = data;
-    }else{
-        console.log("App is Up to date");
-       
     }
-    console.log(data.appUpdate.versionCode);
+    if(newsCount!=null){
+        fetchData("/../../news.json").then(data=>{
+            var result = data.slice(newsCount>data.length?data.length:newsCount); //If length is overcome then send all to update
+            dataJson.news = result;
+            document.write(JSON.stringify(dataJson));
+        });
+    }else{
+        document.write(JSON.stringify(dataJson)); 
+    }
+    
 });
-fetchData("/../../news.json").then(data=>{
-    dataJson.news = data;
-    document.write(JSON.stringify(dataJson));
-});
+
+
 function getURLParams() {
     var params = new Object();
     var query = window.location.search.substring(1);
