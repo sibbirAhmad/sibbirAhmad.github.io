@@ -1,5 +1,5 @@
 {
-    "updateCode":1232,
+    "updateCode":1,
     "appUpdate" : {
         "versionCode":1,
         "source":"web/playstore",
@@ -13,6 +13,18 @@
             "exitOnCancel":0
         }
     },
+    "data":{
+         "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
+         "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycbwS7aooVIeaD-z46Wmb8SGEtG2IhX7-BgRQqYn0sqN8vXC4axtWALVKDuv7ddfXAzyy/exec",
+         "FOR_YOU" :""
+
+    },
+    "command":{
+        "DELETE_ALL_NEWS":0,
+        "CLEAR_APP_DATA":0,
+        "CLEAR_CACHE":0
+    }
+    ,
     "newUserMessage":{
         "updateId":0
     },
