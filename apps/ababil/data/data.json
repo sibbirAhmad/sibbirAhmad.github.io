@@ -22,7 +22,8 @@
     "command":{
         "DELETE_ALL_NEWS":0,
         "CLEAR_APP_DATA":0,
-        "CLEAR_CACHE":0
+        "CLEAR_CACHE":0,
+        "CHECK_APP_SERVER":0
     }
     ,
     "newUserMessage":{
@@ -43,7 +44,10 @@
         "webpage":"webpage url here"
     },
     "ad":{
-
+        "APP_ID":"",
+        "NATIVE_ADVANCE_AD_ID":"ca-app-pub-3940256099942544/2247696110",
+        "RECYCLER_AD_INTERVAL":"5",
+        "NATIVE_AD_SIZE":"medium"
     },
     "notification":{
 
