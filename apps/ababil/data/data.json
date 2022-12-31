@@ -1,12 +1,12 @@
 {
-    "updateCode":0,
+    "updateCode":2,
     "appUpdate" : {
-        "versionCode":1,
+        "versionCode":2,
         "source":"web/playstore",
         "dialog":{
             "title":"Update",
-            "message":"New version released\n-Asr Time fixed",
-            "action":"https://github.com/sibbirAhmad/appControl/raw/main/salahTime/apk/app-release.apk",
+            "message":"News Test version updated\nPlease download and inform to developers if any problem found in apps",
+            "action":"http://sibbir.live/apps/ababil/data/apk/ababil_debug.apk",
             "posButton":"Download Now",
             "negButton":"Cancel",
             "autoCancel":0,
@@ -14,9 +14,14 @@
         }
     },
     "data":{
+         "NEWS_PAPER_SERVER" : "https://sibbirahmad.github.io/febuWeb/newspapers.html",
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
          "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycbxWvElc8ZNLj77VFTZg4XsBah5KI_KXAnZTjX1MRUn0y72MhKv1IvbGbuqpZsyIo7Dy/exec",
-         "FOR_YOU" :""
+         "FOR_YOU" :"https://ababilweb.com",
+         "APP_TUTORIAL_URL" : "https://sibbir.live/apps/ababil/help/",
+         "FACEBOOK_GROUP":"https://m.facebook.com/ababilweb",
+         "ABOUT_US_URL":"https://sibbir.live/apps/ababil/about.html",
+         "APP_DOWNLOAD_URL":"https://sibbir.live/apps"
 
     },
     "command":{
@@ -50,7 +55,8 @@
         "NATIVE_AD_SIZE":"medium",
         "READER_AD_SIZE":"small",
         "HOME_NEWS_RV_AD_SIZE":"medium",
-        "CUSTOM_TUBE_ALONE_AD_SIZE":"medium"
+        "CUSTOM_TUBE_ALONE_AD_SIZE":"medium",
+        "QUALITY_ADAPTER_AD_SIZE":"small"
     },
     "notification":{
 
