@@ -140,7 +140,11 @@ function updateName(selectedLi) {
     selectBtn.firstElementChild.innerText = selectedLi.innerText;
     console.log("Selected Value : "+selectedLi.innerText);
     var myc = document.getElementById("myc");
-    myc.classList.remove("column"); //Have to remove all previous data
+    //myc.remove(); //Have to remove all previous data
+    let papers = myc.querySelectorAll(".column section");
+    for(let i =0; i<papers.length;i++){
+        papers[i].remove();
+    }
     getLocalJson("papers.json",null,selectedLi.innerText);
 }
 var con = []
