@@ -16,7 +16,12 @@ fetchData("data.json").then(data=>{
     }
     if(newsCount!=null){
         fetchData("/../../news.json").then(data=>{
-            var result = data.slice(newsCount>data.length?data.length:newsCount); //If length is overcome then send all to update
+            var result;
+            if(data.length<newsCount){
+                result = data;
+            }else{
+                result = data.slice(newsCount>data.length?data.length:newsCount); //If length is overcome then send all to update
+            }
             dataJson.news = result;
             document.write(JSON.stringify(dataJson));
         });
