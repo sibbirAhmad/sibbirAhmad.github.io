@@ -2,7 +2,7 @@ let tabs = document.querySelectorAll(".tabs h3");
 let tabContents = document.querySelectorAll(".tab-content div");
 
 
-const continant =["Populer","Asia","Africa","North America",
+const continant =["Popular","Asia","Africa","North America",
 "South America","Antarctica","Europe","Australia"];
 tabs.forEach((tab, index) => {
   tab.addEventListener("click", () => {
@@ -13,10 +13,11 @@ tabs.forEach((tab, index) => {
       tab.classList.remove("active");
     });
     console.log("Clicked : "+continant[index]);
-    processData(index);
+    document.getElementById("title").innerHTML = continant[index]
     if(index==0){ //Load All Country [Just for popular News paper]
       getCountryJson("All");
     }else{ //Loa
+      
       getCountryJson(continant[index]);
     }
     
