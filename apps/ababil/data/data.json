@@ -16,7 +16,7 @@
     "data":{
          "NEWS_PAPER_SERVER" : "https://sibbirahmad.github.io/febuWeb/newspapers.html",
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
-         "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycbxWvElc8ZNLj77VFTZg4XsBah5KI_KXAnZTjX1MRUn0y72MhKv1IvbGbuqpZsyIo7Dy/exec",
+         "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycby4Z_jPKwLOhm2rh8eR6uCV_pQlMDTEQJCU2xk09dMg7yLD0WzY5wDqr_4j9cIo3jYc/exec",
          "FOR_YOU" :"https://ababilweb.com",
          "APP_TUTORIAL_URL" : "https://sibbir.live/apps/ababil/help/",
          "FACEBOOK_GROUP":"https://m.facebook.com/ababilweb",
