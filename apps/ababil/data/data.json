@@ -1,5 +1,5 @@
 {
-    "updateCode":3,
+    "updateCode":4,
     "appUpdate" : {
         "versionCode":2,
         "source":"web/playstore",
@@ -14,7 +14,7 @@
         }
     },
     "data":{
-         "NEWS_PAPER_SERVER" : "https://sibbirahmad.github.io/febuWeb/newspapers.html",
+         "NEWS_PAPER_SERVER" : "http://127.0.0.1:5501/apps/ababil/news/papers.html",
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
          "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycby4Z_jPKwLOhm2rh8eR6uCV_pQlMDTEQJCU2xk09dMg7yLD0WzY5wDqr_4j9cIo3jYc/exec",
          "FOR_YOU" :"https://ababilweb.com",
