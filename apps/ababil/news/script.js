@@ -42,11 +42,12 @@ var myc;
 function processLocalJson(data,continant,country) {
   var d = JSON.stringify(data);
   const obj = JSON.parse(d);
+  clearActivePapers(); //First clear all shown papers
   myc = document.getElementById("myc");
   for(let i = 0; i<obj.length;i++){
     var paper = obj[i];
     if(continant!=null){
-      if(continant=="popular" && paper.popular==1){
+      if(continant=="All" && paper.popular==1){
          createPaper(paper);
       }else if(paper.continent==continant){
         createPaper(paper);
@@ -107,7 +108,8 @@ function processCountry(json,continant){
     }
   }
   addCountry();
-  console.log("Length : "+c.length);
+  getLocalJson("papers.json",continant,null);
+  console.log("Length : Loading all "+continant);
 }
 getCountryJson("All");
 
@@ -139,13 +141,15 @@ function updateName(selectedLi) {
     wrapper.classList.remove("active");
     selectBtn.firstElementChild.innerText = selectedLi.innerText;
     console.log("Selected Value : "+selectedLi.innerText);
-    var myc = document.getElementById("myc");
+    getLocalJson("papers.json",null,selectedLi.innerText);
+}
+function clearActivePapers(){
+  var myc = document.getElementById("myc");
     //myc.remove(); //Have to remove all previous data
     let papers = myc.querySelectorAll(".column section");
     for(let i =0; i<papers.length;i++){
         papers[i].remove();
     }
-    getLocalJson("papers.json",null,selectedLi.innerText);
 }
 var con = []
 searchInp.addEventListener("keyup", () => {

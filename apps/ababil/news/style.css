@@ -186,6 +186,9 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
+    .card p{
+      font-size: 14px;
+    }
   }
   
   /* Style the counter cards */
@@ -208,6 +211,9 @@
   .card p{
    text-align: center;
    overflow: hidden;
+   /* display: inline; */
+   white-space: nowrap;
+   margin-right: 20px;
    
   }
   
