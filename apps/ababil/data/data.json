@@ -1,11 +1,11 @@
 {
-    "updateCode":4,
+    "updateCode":5,
     "appUpdate" : {
-        "versionCode":2,
+        "versionCode":3,
         "source":"web/playstore",
         "dialog":{
-            "title":"Update",
-            "message":"News Test version updated\nPlease download and inform to developers if any problem found in apps",
+            "title":"New version updated",
+            "message":"YouTube player fixed.\nPlease download and inform to developers if any problem found in apps",
             "action":"http://sibbir.live/apps/ababil/data/apk/ababil_debug.apk",
             "posButton":"Download Now",
             "negButton":"Cancel",
