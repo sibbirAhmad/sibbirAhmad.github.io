@@ -1,5 +1,5 @@
 {
-    "updateCode":5,
+    "updateCode":6,
     "appUpdate" : {
         "versionCode":3,
         "source":"web/playstore",
@@ -19,7 +19,8 @@
          "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycby4Z_jPKwLOhm2rh8eR6uCV_pQlMDTEQJCU2xk09dMg7yLD0WzY5wDqr_4j9cIo3jYc/exec",
          "FOR_YOU" :"https://ababilweb.com",
          "APP_TUTORIAL_URL" : "https://sibbir.live/apps/ababil/help/",
-         "FACEBOOK_GROUP":"https://m.facebook.com/ababilweb",
+         "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
+         "TELEGRAM":"https://t.me/+DXN9qYOGJGpmOTA9",
          "ABOUT_US_URL":"https://sibbir.live/apps/ababil/about.html",
          "APP_DOWNLOAD_URL":"https://sibbir.live/apps"
 
