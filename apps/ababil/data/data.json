@@ -1,15 +1,15 @@
 {
-    "updateCode":6,
+    "updateCode":7,
     "appUpdate" : {
-        "versionCode":3,
+        "versionCode":4,
         "source":"web/playstore",
         "dialog":{
-            "title":"New version updated",
-            "message":"YouTube player fixed.\nPlease download and inform to developers if any problem found in apps",
-            "action":"http://sibbir.live/apps/ababil/data/apk/ababil_debug.apk",
+            "title":"Download Updated App",
+            "message":"This test version of first released.\nIf you can't Install, then uninstall this version and manually download and install from the link : \nhttp://sibbir.live/apps",
+            "action":"http://sibbir.live/apps/ababil/data/apk/app-release.apk",
             "posButton":"Download Now",
             "negButton":"Cancel",
-            "autoCancel":0,
+            "autoCancel":1,
             "exitOnCancel":0
         }
     },
