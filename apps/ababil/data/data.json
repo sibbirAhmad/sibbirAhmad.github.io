@@ -1,11 +1,11 @@
 {
-    "updateCode":7,
+    "updateCode":5,
     "appUpdate" : {
-        "versionCode":4,
+        "versionCode":5,
         "source":"web/playstore",
         "dialog":{
             "title":"Download Updated App",
-            "message":"This test version of first released.\nIf you can't Install, then uninstall this version and manually download and install from the link : \nhttp://sibbir.live/apps",
+            "message":"Test Version Updated.\nIf you can't Install, then uninstall this version and manually download and install from the link : \nhttp://sibbir.live/apps",
             "action":"http://sibbir.live/apps/ababil/data/apk/app-release.apk",
             "posButton":"Download Now",
             "negButton":"Cancel",
