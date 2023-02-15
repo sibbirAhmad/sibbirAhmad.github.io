@@ -1,5 +1,5 @@
 {
-    "updateCode":6,
+    "updateCode":8,
     "appUpdate" : {
         "versionCode":5,
         "source":"web/playstore",
@@ -14,15 +14,15 @@
         }
     },
     "data":{
-         "NEWS_PAPER_SERVER" : "https://sibbir.live/apps/ababil/news/papers.html",
+         "NEWS_PAPER_SERVER" : "https://ababilweb.github.io/news/",
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
          "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycbwdS6uqkWVgXEuCz-MfW63Gn6P9TlCFPZWfpExxNzX9J3F6BUmLnbvbTm2g0Z49p0CO/exec",
          "FOR_YOU" :"https://ababilweb.com",
-         "APP_TUTORIAL_URL" : "https://sibbir.live/apps/ababil/help/",
+         "APP_TUTORIAL_URL" : "https://ababilweb.github.io/help/",
          "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
          "TELEGRAM":"https://t.me/+DXN9qYOGJGpmOTA9",
-         "ABOUT_US_URL":"https://sibbir.live/apps/ababil/about.html",
-         "APP_DOWNLOAD_URL":"https://sibbir.live/apps"
+         "ABOUT_US_URL":"https://ababilweb.github.io/about.html",
+         "APP_DOWNLOAD_URL":"https://ababilweb.github.io/apps/"
 
     },
     "command":{
