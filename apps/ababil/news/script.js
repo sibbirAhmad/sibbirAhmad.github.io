@@ -142,7 +142,7 @@ function updateName(selectedLi) {
     wrapper.classList.remove("active");
     selectBtn.firstElementChild.innerText = selectedLi.innerText;
     console.log("Selected Value : "+selectedLi.innerText);
-    getLocalJson("papers.json",null,selectedLi.innerText);
+    getLocalJson("/../../papers.json",null,selectedLi.innerText);
 }
 function clearActivePapers(){
   var myc = document.getElementById("myc");
