@@ -16,7 +16,7 @@
     "data":{
          "NEWS_PAPER_SERVER" : "https://sibbir.live/apps/ababil/news/papers.html",
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
-         "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycbwFIJYbJ8gns02w5l-fpqMTsvo5vUw78w-0RQMU5tkzXe-DDooAzTpX8lqEnr-tDDg/exec",
+         "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycbwdS6uqkWVgXEuCz-MfW63Gn6P9TlCFPZWfpExxNzX9J3F6BUmLnbvbTm2g0Z49p0CO/exec",
          "FOR_YOU" :"https://ababilweb.com",
          "APP_TUTORIAL_URL" : "https://sibbir.live/apps/ababil/help/",
          "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
