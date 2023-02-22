@@ -1,7 +1,7 @@
 {
     "updateCode":10,
     "appUpdate" : {
-        "versionCode":5,
+        "versionCode":6,
         "source":"web/playstore",
         "dialog":{
             "title":"Download Updated App",
