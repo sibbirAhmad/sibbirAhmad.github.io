@@ -1,14 +1,15 @@
 {
     "updateCode":10,
     "appUpdate" : {
-        "versionCode":6,
+        "versionCode":5,
         "source":"web/playstore",
         "dialog":{
             "title":"Download Updated App",
             "message":"Test Version Updated.\nIf you can't Install, then uninstall this version and manually download and install from the link : \nhttp://sibbir.live/apps",
-            "action":4,
+            "action":1,
             "url":"http://sibbir.live/apps/ababil/data/apk/app-release.apk",
-            "posButton":"Download Now",
+            "package":"com.insafiatech.ababilbrowser1",
+            "posButton":"OK",
             "negButton":"Cancel",
             "autoCancel":1,
             "exitOnCancel":0
@@ -26,7 +27,8 @@
          "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
          "TELEGRAM":"https://t.me/+DXN9qYOGJGpmOTA9",
          "ABOUT_US_URL":"https://ababilweb.github.io/about.html",
-         "APP_DOWNLOAD_URL":"https://ababilweb.github.io/apps/"
+         "APP_DOWNLOAD_URL":"https://ababilweb.github.io/apps/",
+         "AD_PAGE" :"https://ababilweb.github.io/ad?"
 
     },
     "command":{
@@ -62,6 +64,20 @@
         "HOME_NEWS_RV_AD_SIZE":"medium",
         "CUSTOM_TUBE_ALONE_AD_SIZE":"medium",
         "QUALITY_ADAPTER_AD_SIZE":"small"
+    },
+    "customAdd":{
+        "adId":2,
+        "data":{
+            "title":"Another Ad",
+            "message":"Hello There",
+            "image":"https://ababilweb.github.io/news/contentBlock.png",
+            "action":3,
+            "url":"http://sibbir.live/apps/ababil/data/apk/app-release.apk",
+            "posButton":"Install Now",
+            "status" : 0,
+            "autoCancel":1
+        }
+
     },
     "notification":{
 
