@@ -1,5 +1,5 @@
 {
-    "updateCode":12,
+    "updateCode":13,
     "appUpdate" : {
         "versionCode":6,
         "source":"web/playstore",
@@ -59,7 +59,7 @@
         "APP_ID":"ca-app-pub-8841718622126834~7097852311",
         "NATIVE_ADVANCE_AD_ID":"ca-app-pub-8841718622126834/9260981228",
         "RECYCLER_AD_INTERVAL":"0",
-        "NATIVE_AD_SIZE":"0",
+        "NATIVE_AD_SIZE":"small",
         "READER_AD_SIZE":"small",
         "HOME_NEWS_RV_AD_SIZE":"0",
         "CUSTOM_TUBE_ALONE_AD_SIZE":"small",
