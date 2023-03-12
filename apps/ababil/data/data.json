@@ -1,13 +1,13 @@
 {
-    "updateCode":13,
+    "updateCode":14,
     "appUpdate" : {
-        "versionCode":6,
+        "versionCode":7,
         "source":"web/playstore",
         "dialog":{
-            "title":"আলহামদুলিল্লাহ্‌! প্রথম রিলিজ!",
-            "message":"প্রিয় ব্যবহারকারি, অনেক প্রতিক্ষার পরে আবাবিল আজ অফিসিয়ালি রিলিজ করা হয়েছে।\nআপনি এতোদিন যে এপটি ব্যবহার করেছিলেন তা মুলত টেস্টিং এর জন্য ছিলো।\n তাই অনুগ্রহ করে নতুন এপটি আপডেট করে নিন।\nযদি আপডেট করতে সমস্যা হয়, তাহলের আগের এপটি Uninstall করে নিচের লিংক থেকে নতুন এপটি ডাউনলোড করে নিন।\n https://ababilweb.github.io/",
+            "title":"আপডেট করুন",
+            "message":"আপনার ভার্সনটিতে ইউটিউব ভিডিও ডাউনলোডে একটু সমস্যা রয়েছে।\nতবে আলহামদুলিল্লাহ্, সমস্যাটির সমাধান করে আমরা দ্রুতই নতুন ভার্সন আপডেট করেছি।\n\nতাই অনুগ্রহ করে নতুন ভার্সনটি ডাউনলোড করে ইনস্ট্যাল করে নিন।",
             "action":1,
-            "url":"https://ababilweb.github.io/assets/apk/ababil_version_6.apk",
+            "url":"https://www.dropbox.com/s/vp2ehrs9zn4hf9m/ababil_v7_latest.apk?dl=1",
             "package":"com.insafiatech.ababilbrowser",
             "posButton":"আপডেট",
             "negButton":"",
@@ -89,6 +89,5 @@
     },
     "notification":{
 
-    }
-    
+    }    
 }
