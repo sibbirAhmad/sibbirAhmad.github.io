@@ -1,5 +1,5 @@
 {
-    "updateCode":14,
+    "updateCode":15,
     "appUpdate" : {
         "versionCode":7,
         "source":"web/playstore",
@@ -62,7 +62,7 @@
         "NATIVE_AD_SIZE":"small",
         "READER_AD_SIZE":"small",
         "HOME_NEWS_RV_AD_SIZE":"0",
-        "CUSTOM_TUBE_ALONE_AD_SIZE":"small",
+        "CUSTOM_TUBE_ALONE_AD_SIZE":"medium",
         "QUALITY_ADAPTER_AD_SIZE":"small",
         "AD_REMOVE_ENABLE" : "0",
         "AD_REMOVE_ENABLE_DATA":{
