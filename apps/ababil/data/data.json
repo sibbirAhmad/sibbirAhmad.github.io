@@ -61,7 +61,7 @@
         "RECYCLER_AD_INTERVAL":"0",
         "NATIVE_AD_SIZE":"small",
         "READER_AD_SIZE":"small",
-        "HOME_NEWS_RV_AD_SIZE":"0",
+        "HOME_NEWS_RV_AD_SIZE":"medium",
         "CUSTOM_TUBE_ALONE_AD_SIZE":"medium",
         "QUALITY_ADAPTER_AD_SIZE":"small",
         "AD_REMOVE_ENABLE" : "0",
