@@ -1,0 +1,68 @@
+ {
+    "updateCode":1,
+    "appUpdate" : {
+        "versionCode":4,
+        "source":"web/playstore",
+        "dialog":{
+            "title":"আপডেট করুন",
+            "message":"আপনার ভার্সনটিতে একটু সমস্যা রয়েছে।\nতবে আলহামদুলিল্লাহ্, সমস্যাটির সমাধান করে আমরা দ্রুতই নতুন ভার্সন আপডেট করেছি।\n\nতাই অনুগ্রহ করে নতুন ভার্সনটি ডাউনলোড করে ইনস্ট্যাল করে নিন।",
+            "action":1,
+            "url":"https://github.com/sibbirAhmad/appControl/raw/main/salahTime/apk/app-release.apk",
+            "package":"soft.insafservice.salahtime",
+            "posButton":"আপডেট",
+            "negButton":"",
+            "autoCancel":0,
+            "exitOnCancel":0
+        }
+    },
+    "moonUpdate": {
+        "update" : "2023-04-24",
+        "hijriMonth" : 1
+      }
+    ,
+    "data":{
+         "APP_SERVER":"https://insafsoft.github.io/apps/salahtime/data.json",
+         "EMERGENCY_SERVER" :"https://insafsoft.github.io/apps/salahtime/data.json"
+
+    },
+    "command":{
+        "CLEAR_APP_DATA":0,
+        "CLEAR_CACHE":0,
+        "CHECK_APP_SERVER":0
+    }
+    ,
+    "newUserMessage":{
+        "updateId":0
+    },
+    "message":{
+        "updateId":0,
+        "messageType":"dialog/webpage",
+        "dialog":{
+            "title":"Messsage Title",
+            "posButton":"Yes",
+            "negButton":"Cancel",
+            "action":"nothing/blockApp/openFacebook/openUrl/openPlaystore/downloadApp/ratingApp/openActivity",
+            "autoCancel":"1"
+        },
+        "openUrl":"Url to Open",
+        "ratingApp":"ratingApp Url",
+        "webpage":"webpage url here"
+    },
+    "customAdd":{
+        "adId":1,
+        "data":{
+            "title":"Test Ad",
+            "message":"This is a test ad from Admin",
+            "image":"",
+            "action":3,
+            "url":"",
+            "posButton":"Open",
+            "status" : 0,
+            "autoCancel":1
+        }
+
+    },
+    "notification":{
+
+    }    
+}
