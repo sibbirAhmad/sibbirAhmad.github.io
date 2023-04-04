@@ -1,1 +1,93 @@
-I'm Sibbir Ahmad Saying
+{
+    "updateCode":18,
+    "appUpdate" : {
+        "versionCode":7,
+        "source":"web/playstore",
+        "dialog":{
+            "title":"আপডেট করুন",
+            "message":"আপনার ভার্সনটিতে ইউটিউব ভিডিও ডাউনলোডে একটু সমস্যা রয়েছে।\nতবে আলহামদুলিল্লাহ্, সমস্যাটির সমাধান করে আমরা দ্রুতই নতুন ভার্সন আপডেট করেছি।\n\nতাই অনুগ্রহ করে নতুন ভার্সনটি ডাউনলোড করে ইনস্ট্যাল করে নিন।",
+            "action":1,
+            "url":"https://www.dropbox.com/s/vp2ehrs9zn4hf9m/ababil_v7_latest.apk?dl=1",
+            "package":"com.insafiatech.ababilbrowser",
+            "posButton":"আপডেট",
+            "negButton":"",
+            "autoCancel":0,
+            "exitOnCancel":0
+        }
+    },
+    "data":{
+         "NEWS_PAPER_SERVER" : "https://ababilweb.github.io/news/",
+         "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
+         "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycby5nIJrAKx8BdUKdS7ssDRuQpTQo95vt-FBmuaWSqCXpdWyOWpEYWh-cHhoBZ4GbbPE/exec",
+         "APP_CONTENT_SERVER" : "http://ababil.ywc.pw/req.php",
+         "EMERGENCY_SERVER" :"http://sibbirahmad.github.io/apps/ababil/data/data.json",
+         "ADD_CONTENT_URL":"http://ababil.ywc.pw/check.php?u=",
+         "FOR_YOU" :"https://ababilweb.github.io",
+         "APP_TUTORIAL_URL" : "https://ababilweb.github.io/help/",
+         "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
+         "TELEGRAM":"https://t.me/+DXN9qYOGJGpmOTA9",
+         "ABOUT_US_URL":"https://ababilweb.github.io/about.html",
+         "APP_DOWNLOAD_URL":"https://ababilweb.github.io/",
+         "AD_PAGE" :"https://ababilweb.github.io/ad?"
+
+    },
+    "command":{
+        "DELETE_ALL_NEWS":0,
+        "CLEAR_APP_DATA":0,
+        "CLEAR_CACHE":0,
+        "CHECK_APP_SERVER":0
+    }
+    ,
+    "newUserMessage":{
+        "updateId":0
+    },
+    "message":{
+        "updateId":0,
+        "messageType":"dialog/webpage",
+        "dialog":{
+            "title":"Messsage Title",
+            "posButton":"Yes",
+            "negButton":"Cancel",
+            "action":"nothing/blockApp/openFacebook/openUrl/openPlaystore/downloadApp/ratingApp/openActivity",
+            "autoCancel":"1"
+        },
+        "openUrl":"Url to Open",
+        "ratingApp":"ratingApp Url",
+        "webpage":"webpage url here"
+    },
+    "ad":{
+        "APP_ID":"ca-app-pub-8841718622126834~7097852311",
+        "NATIVE_ADVANCE_AD_ID":"ca-app-pub-8841718622126834/9260981228",
+        "RECYCLER_AD_INTERVAL":"0",
+        "NATIVE_AD_SIZE":"small",
+        "READER_AD_SIZE":"small",
+        "HOME_NEWS_RV_AD_SIZE":"medium",
+        "CUSTOM_TUBE_ALONE_AD_SIZE":"medium",
+        "QUALITY_ADAPTER_AD_SIZE":"small",
+        "AD_REMOVE_ENABLE" : "0",
+        "AD_REMOVE_ENABLE_DATA":{
+            "message":"<h3>আসসালামু আলাইকুম</h3><b>প্রিয় ব্যবহারকারি, </b>আবাবিলে এড গুলো আপাদত চালু রাখার কারন হল এপটি রানিং রাখার জন্য আমাদের বেশ কিছু খাতে অর্থের প্রয়োজন পড়ে। ডেভেলপিং এর সময় আর পরিশ্রম ছাড়াও রয়েছে, সার্ভার বিল, API বিল, কন্টেট ম্যানেজারদের খরচ। যে অর্থগুলো এই মুহুর্তে আমাদের কাছে পর্যাপ্ত নয়। <br> আমরা চেষ্টা করছি,এডগুলো যথেষ্ট ফিল্টারিং এর মাধ্যমে রাখার। এক্ষেত্রে আমাদেরও লিমিটেশন আছে, চাইলেই আমরা সব এড ব্লক করতে পারিনা, যা মুলত পুরোটাই ম্যানেজ করে গুগল।<br>তবে আমরা যদি এড এর অশ্লীলতা কোনোভাবেই কন্ট্রোলে রাখতে না পারি, তবে আমরা গুগলের এড সিস্টেমটা পুরোপুরি বন্ধ করে দিবো, ইনশাআল্লাহ। এবং এতে যদি অর্থের অভাবে আবিলও বন্ধ করে দিতে হয়, আমরা সেটাও দিবো, ইনশাআল্লাহ।<br>তবে আপনারা যদি সকলে মিলে অল্প হলেও আমাদের সহযোগিতা করেন, তবে আমরা গুগলের এড বন্ধের পাশাপাশি আবাবিলকে আরো সুন্দরভাবে ডেভেলপ করতে পারবো, ইনশাআল্লাহ।<br>আমাদের মূল লক্ষ্য অশ্লীলতায় ভরা ইন্টারনেট জগত থেকে, অশ্লীলতা মুক্ত গুরত্বপূর্ন তথ্যাদি আপনাদের কাছে পৌছে দেয়া।<br>এ লক্ষ্যে আমাদের যাত্রা সবে শুরু মাত্র, আল্লাহ চাইলে আরো সুন্দর পরিকল্পনা আছে, যদি আপনাদের উত্তম পরামর্শ, দোয়া এবং সহযোগিতা পাই।<br>আপনি যদি গুনাহ থেকে বাচতে আপনার এপটি এড মুক্ত রাখতে চান, তবে আপনার অনুরোধে এ আমরা সেটা করে দিবো, ইনশাআল্লাহ।<br><b>তবে এপটি চালু রাখা এবং আরো উন্নতির জন্য আমাদের সহযোগিতা করা উচিত কিনা সেটা আপনার বিবেকের সিদ্ধান্ত।</b><br><br><b>বিকাশঃ <u> ০০০০০০০০০০ </u> (পারসোলান)</b>",
+            "payBtn":"সহযোগিতার সাথে এড মুক্ত থাকতে চাই",
+            "noPayBtn" : "সহযোগিতা ছাড়া এড মুক্ত থাকতে চাই",
+            "cancelBtn" :"আমি নিজ দায়িত্বে চোখের হেফাজত করবো"
+
+        }
+    },
+    "customAdd":{
+        "adId":1,
+        "data":{
+            "title":"Test Ad",
+            "message":"This is a test ad from Admin",
+            "image":"https://ababilweb.github.io/news/contentBlock.png",
+            "action":3,
+            "url":"http://sibbir.live/apps/ababil/data/apk/app-release.apk",
+            "posButton":"Open",
+            "status" : 0,
+            "autoCancel":1
+        }
+
+    },
+    "notification":{
+
+    }    
+}
