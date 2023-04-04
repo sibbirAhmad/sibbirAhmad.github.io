@@ -31,6 +31,10 @@
          "AD_PAGE" :"https://ababilweb.github.io/ad?"
 
     },
+    "servers" :{
+        "server1" : "http://ababil.ywc.pw/req.php",
+        "server2" : "http://ababilbd.c1.biz/req.php"
+    },
     "command":{
         "DELETE_ALL_NEWS":0,
         "CLEAR_APP_DATA":0,
@@ -90,4 +94,4 @@
     "notification":{
 
     }    
-}
+}
