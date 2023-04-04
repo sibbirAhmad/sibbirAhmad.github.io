@@ -1,5 +1,5 @@
 {
-    "updateCode":18,
+    "updateCode":8,
     "appUpdate" : {
         "versionCode":7,
         "source":"web/playstore",
@@ -30,6 +30,10 @@
          "APP_DOWNLOAD_URL":"https://ababilweb.github.io/",
          "AD_PAGE" :"https://ababilweb.github.io/ad?"
 
+    },
+    "servers" :{
+        "server1" : "http://ababil.ywc.pw/req.php",
+        "server2" : "http://ababilbd.c1.biz/req.php"
     },
     "command":{
         "DELETE_ALL_NEWS":0,
@@ -90,4 +94,4 @@
     "notification":{
 
     }    
-}
+}
