@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Server Manage</title>
+    <style>
+      .selectors {
+        display: inline-flexbox;
+      }
+    </style>
+  </head>
+  <body onload="getAllApppData()">
+    <div class="selectors">
+      <select name="" id="app" onchange="onAppChange()">
+        <option value="2">Ababil</option>
+        <option value="3">Salah Time</option>
+      </select>
+
+      <select name="Server" id="" onchange="onAppChange()">
+        <option value="2">Ababil</option>
+        <option value="3">Salah Time</option>
+      </select>
+      <p id="servers">List of servers</p>
+    </div>
+
+    <textarea
+      name=""
+      id="appdata"
+      style="width: 100%; height: 400px"
+      cols="30"
+      rows="10"
+    ></textarea>
+
+    <button type="submit" onclick="updateServer()">Update Server</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      var allAppData = null;
+      var appUrl =
+        "https://script.google.com/macros/s/AKfycbxcNQ1fEnOuRAKecpDNF66OOcJpR-5lAgHpGxDsOAHHafxJUGfWYQSk7p4vq0r7gxQp/exec";
+      var appScriptUrl = appUrl + "?req=appdata&appid=2";
+      async function getAllApppData() {
+        var value = document.getElementById("app").value;
+        Swal.fire({
+          title: "Preparing data\nPlease wait",
+        });
+        swal.showLoading();
+        const response = await fetch(appScriptUrl);
+        const json = await response.json();
+        var data = JSON.stringify(json);
+        data = JSON.parse(data);
+        allAppData = data.data;
+        Swal.update({
+          icon: "success",
+          title: "Success",
+          showConfirmButton: false,
+        });
+        setTimeout(function () {
+          Swal.close();
+        }, 1000);
+      }
+      async function onAppChange() {
+        var value = document.getElementById("app").value;
+        showAppData(value);
+      }
+      function showAppData(appId) {
+        var json = JSON.parse(allAppData);
+        for (let i = 0; i < json.length; i++) {
+          let obj = json[i];
+          if (obj.appid == appId) {
+            console.log("Data : " + obj);
+            var appData = obj.appdata;
+            var s = JSON.parse(appData);
+            var ss = s.servers;
+            var servers = JSON.stringify(ss);
+            document.getElementById("appdata").value = appData;
+            document.getElementById("servers").innerHTML = servers;
+            console.log("Servers :  " + servers);
+          }
+        }
+      }
+
+      function processAppDataJson(json) {
+        json = JSON.parse(json);
+        for (let i = 0; i < json.length; i++) {
+          let obj = json[i];
+          console.log(obj.appdata);
+        }
+      }
+
+      function updateServer() {
+        var appId = document.getElementById("app").value;
+        var appData = document.getElementById("appdata").value;
+        var param = {
+          request: "UPDATE_APP_SERVER",
+          appid: appId,
+        };
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+        var message = "App ID : " + appId + "<br>" + appData;
+        Swal.fire({
+          title: "Are you sure to update",
+          text: message,
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Yes, Update",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            Swal.update({
+              title: "Preparing data\nPlease wait",
+            });
+            Swal.fire("Updating!", "Please wait");
+            swal.showLoading();
+            fetch(appUrl, {
+              method: "POST", // or 'PUT'
+              headers:myHeaders,
+              body: JSON.stringify(param),
+            })
+              .then((response) => response.text())
+              .then((data) => {
+                Swal.update({
+                  icon: "success",
+                  title: "Successfully sent!",
+                  text: "Thank you",
+                });
+
+                Swal.hideLoading();
+
+                //alert("Successfully sent!");
+                console.log("Success:", data);
+              })
+              .catch((error) => {
+                console.error("Error:", error);
+
+                //alert("Error : ")
+              });
+            //alert("Hello "+name);
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
