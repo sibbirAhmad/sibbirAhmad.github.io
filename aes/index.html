@@ -109,11 +109,13 @@
           };
           const response = await fetch(appUrl, config);
           const json = await response.json();
+          var jsonObj = JSON.parse(json);
+          var data = jsonObj.data;
           if (response.ok) {
             Swal.update({
               icon: "success",
               title: "Success",
-              text: "Server Successfully Updated",
+              text: data,
             });
             Swal.hideLoading();
             console.log("Success " + JSON.stringify(json));
