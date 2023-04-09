@@ -1,5 +1,5 @@
 {
-    "updateCode":30,
+    "updateCode":31,
     "appUpdate" : {
         "versionCode":7,
         "source":"web/playstore",
@@ -20,7 +20,7 @@
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
          "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycby5nIJrAKx8BdUKdS7ssDRuQpTQo95vt-FBmuaWSqCXpdWyOWpEYWh-cHhoBZ4GbbPE/exec",
          "APP_CONTENT_SERVER":"http://ababilbd.c1.biz/req.php",
-         "EMERGENCY_SERVER":"http://sibbirahmad.github.io/apps/ababil/data/data.json",
+         "EMERGENCY_SERVER":"http://sibbirahmad.github.io/aes/ababil.json",
          "ADD_CONTENT_URL":"http://ababilbd.c1.biz/check.php?u=",
          "FOR_YOU" :"https://ababilweb.github.io",
          "APP_TUTORIAL_URL" : "https://ababilweb.github.io/help/",
