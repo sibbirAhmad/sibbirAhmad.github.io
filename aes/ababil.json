@@ -11,7 +11,7 @@
             "package":"com.insafiatech.ababilbrowser",
             "posButton":"আপডেট",
             "negButton":"",
-            "autoCancel":0,
+            "autoCancel":1,
             "exitOnCancel":0
         }
     },
