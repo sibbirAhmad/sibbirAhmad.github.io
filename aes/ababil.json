@@ -6,11 +6,11 @@
         "dialog":{
             "title":"আপডেট করুন",
             "message":"আপডেট ভার্সনে যা থাকছে,\n\n✅শেষ জামানা ক্যাটেগরি\n✅ফেইসবুক ভিডিও ডাউনলোড\n✅ভিডিও এবং লেখা বাছাইকরণ\n✅নোটিফিকেশন ম্যানেজ\nএছাড়াও বেশ কিছু সমস্যার সমাধান করা হয়েছে।\n\nতাই অনুগ্রহ করে নতুন ভার্সনটি আপডেট করে নিন।",
-            "action":3,
+            "action":1,
             "url":"https://www.dropbox.com/s/tw0agiy5q5o6pc1/ababil_v8_latest.apk?dl=1",
             "package":"com.insafiatech.ababilbrowser",
             "posButton":"আপডেট",
-            "negButton":"Later",
+            "negButton":"",
             "autoCancel":1,
             "exitOnCancel":0
         }
