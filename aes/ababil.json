@@ -10,7 +10,7 @@
             "url":"https://www.dropbox.com/s/tw0agiy5q5o6pc1/ababil_v8_latest.apk?dl=1",
             "package":"com.insafiatech.ababilbrowser",
             "posButton":"আপডেট",
-            "negButton":"",
+            "negButton":"Later",
             "autoCancel":1,
             "exitOnCancel":0
         }
