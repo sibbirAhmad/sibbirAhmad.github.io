@@ -67,7 +67,7 @@
         "NATIVE_AD_SIZE":"0",
         "READER_AD_SIZE":"0",
         "HOME_NEWS_RV_AD_SIZE":"0",
-        "CUSTOM_TUBE_ALONE_AD_SIZE":"small",
+        "CUSTOM_TUBE_ALONE_AD_SIZE":"0",
         "QUALITY_ADAPTER_AD_SIZE":"0",
         "APP_OPEN_INTS":{"count" : 0},
         "YT_DOWNLOAD_INTS":{"count" : 0},
