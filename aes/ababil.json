@@ -1,5 +1,5 @@
 {
-    "updateCode":41,
+    "updateCode":42,
     "appUpdate" : {
         "versionCode":8,
         "source":"web/playstore",
@@ -25,7 +25,7 @@
          "FOR_YOU" :"https://ababilweb.github.io",
          "APP_TUTORIAL_URL" : "https://ababilweb.github.io/help/",
          "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
-         "TELEGRAM":"https://t.me/+DXN9qYOGJGpmOTA9",
+         "TELEGRAM":"https://t.me/ababilapp",
          "ABOUT_US_URL":"https://ababilweb.github.io/about.html",
          "APP_DOWNLOAD_URL":"https://ababilweb.github.io/",
          "AD_PAGE" :"https://ababilweb.github.io/ad?"
