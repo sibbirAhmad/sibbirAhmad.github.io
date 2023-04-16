@@ -1,5 +1,5 @@
 {
-    "updateCode":40,
+    "updateCode":41,
     "appUpdate" : {
         "versionCode":8,
         "source":"web/playstore",
@@ -65,10 +65,10 @@
         "INTERSTITIAL_AD_ID":"ca-app-pub-8841718622126834/7626579047",
         "RECYCLER_AD_INTERVAL":"0",
         "NATIVE_AD_SIZE":"0",
-        "READER_AD_SIZE":"0",
-        "HOME_NEWS_RV_AD_SIZE":"0",
-        "CUSTOM_TUBE_ALONE_AD_SIZE":"0",
-        "QUALITY_ADAPTER_AD_SIZE":"0",
+        "READER_AD_SIZE":"small",
+        "HOME_NEWS_RV_AD_SIZE":"small",
+        "CUSTOM_TUBE_ALONE_AD_SIZE":"small",
+        "QUALITY_ADAPTER_AD_SIZE":"small",
         "APP_OPEN_INTS":{"count" : 0},
         "YT_DOWNLOAD_INTS":{"count" : 0},
         "CUSTOM_TUBE_INTS":{"count" : 0},
