@@ -1,5 +1,5 @@
 {
-    "updateCode":44,
+    "updateCode":45,
     "appUpdate" : { 
         "versionCode":8,
         "source":"web/playstore",
@@ -12,16 +12,16 @@
             "posButton":"আপডেট",
             "negButton":"",
             "autoCancel":1,
-            "exitOnCancel":0
+            "exitOnCancel":0ababilweb
         }
     },
     "data":{
          "NEWS_PAPER_SERVER" : "https://ababilweb.github.io/news/",
          "APP_DATA_SERVER":"https://sibbir.live/apps/ababil/data/data.html?",
          "APP_SCRIPT_SERVER":"https://script.google.com/macros/s/AKfycby5nIJrAKx8BdUKdS7ssDRuQpTQo95vt-FBmuaWSqCXpdWyOWpEYWh-cHhoBZ4GbbPE/exec",
-         "APP_CONTENT_SERVER":"http://103.138.151.78/~uxzjeqgs/req.php",
+         "APP_CONTENT_SERVER":"https://ababilweb.com/req.php",
          "EMERGENCY_SERVER":"http://sibbirahmad.github.io/aes/ababil.json",
-         "ADD_CONTENT_URL":"http://103.138.151.78/~uxzjeqgs/req.php?u=",
+         "ADD_CONTENT_URL":"https://ababilweb.com//req.php?u=",
          "FOR_YOU" :"https://ababilweb.github.io",
          "APP_TUTORIAL_URL" : "https://ababilweb.github.io/help/",
          "FACEBOOK_GROUP":"https://www.facebook.com/groups/ababil.web",
@@ -32,7 +32,7 @@
 
     },
     "servers" :{
-        "server1" : "http://103.138.151.78/~uxzjeqgs/req.php",
+        "server1" : "https://ababilweb.com/req.php",
         "server2" : "http://ababilbd.c1.biz/req.php"
     },
     "command":{
