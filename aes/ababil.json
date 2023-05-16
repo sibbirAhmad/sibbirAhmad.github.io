@@ -32,7 +32,7 @@
 
     },
     "servers" :{
-        "server1" : "https://ababilweb.com/req.php",
+        "server1" : "http://ababilweb.com/req.php",
         "server2" : "http://ababilbd.c1.biz/req.php"
     },
     "command":{
