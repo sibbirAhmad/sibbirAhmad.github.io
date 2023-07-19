@@ -1069,6 +1069,31 @@
   
   <script>
   
+  //Getting Paraeter
+var p = getURLParams();
+var projectFolder = p.p;
+if(projectFolder===undefined){
+  //type undefined
+}else{
+  
+  window.location.href = "data/projectView/index.html?p="+projectFolder;
+
+}
+  // get url parameters with javascript (e.g.: sample.html?udid=123&device=iphone)
+function getURLParams() {
+    var params= new Object();
+    var query = window.location.search.substring(1);
+    var pairs = query.split('&');
+    for (var i=0; i<pairs.length; i++) {
+        var pos = pairs[i].indexOf('=');
+        if (pos > 0) {
+            var key = pairs[i].substring(0,pos);
+            var val = pairs[i].substring(pos+1);
+            params[key] = val;
+        }
+    }
+    return params;
+}
 
   //#region Send Message
    function sendMessage(event){

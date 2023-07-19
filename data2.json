@@ -92,6 +92,79 @@
         "title": "AI Touch pen",
         "url": "data/project/aiTouchPen/index.html"
       },
+      "pillBox": {
+        "category": "IoT",
+        "featureImage": "data/project/pillBox/images/feature.png",
+        "features": [
+          {
+            "details": "It will call by siren and voice when it is time to take medicine. And patients will be able to take medicines one by one by pressing a single button. No chance to duplicate dose",
+            "name": "Alarm with Siren & Voice"
+          },
+          
+          {
+            "details": "This device is capable for unlimited alarm(Medicine dose)",
+            "name": "Unlimited alarm (Medicine Time Schedule)"
+          },
+          {
+            "details": "Emergency button for patient emergency situation. After pressing the button the device will call the controller or the nearest hospital (The Setting will be managed by the controller)",
+            "name": "Emergency button"
+          },
+          {
+            "details": "12 compartments will contains 12 different medicines against different time schedule",
+            "name": "12 Compartments for 12 different medicine"
+          },
+          {
+            "details": "Sometimes patients require common medicines like for fever, blood pressure etc. 4 different buttons will reserved for 4 different common medicines",
+            "name": "Common medicine buttons"
+          },
+          {
+            "details": "Box will speak the alert and condition for different medicines while it's time for medication. The carer will be able to set these voices for different medicines dynamically.And also it works with the carer's own recorded voice",
+            "name": "Custom voice alert and condition setup (Dynamic Audio)"
+          },
+          {
+            "details": "The box will be remotely monitored via the internet. Like Updating medicine time, viewing history and battery status",
+            "name": "Remote  control and monitoring via Internet"
+          },
+          {
+            "details": "The box will notify the carer of taking or not taking the medicines. And also it will notify if required more medicine.The notification will be sent via sms or mobile app as per user settings",
+            "name": "Notify Medication Report & Less Medicine"
+          },
+          {
+            "details": "<br><br>✅Local time will automatically synchronised<br>✅ Medicine and medication time setup<br>✅Dynamic Audio setup for different medicine<br>✅Alarm   tone and volume adjust<br>✅Emergency number setup",
+            "name": "Programming the box via Mobile App"
+          },
+          {
+            "details": "Doctor will be able to update or add prescription via device code or patent number",
+            "name": "Directly prescription setup by Dr. via Web and Mobile App"
+          }
+        ],
+        "folder": "pillBox",
+        "images": [
+          {
+            "src": "feature.png",
+            "title": "image title"
+          },
+          {
+            "src": "1.png",
+            "title": "image title"
+          },
+          {
+            "src": "2.png",
+            "title": "image title"
+          },
+          {
+            "src": "3.png",
+            "title": "image title"
+          },
+          {
+            "src": "4.png",
+            "title": "image Title"
+          }
+        ],
+        "language": "C, c++,PHP,Java,Json",
+        "title": "Smart PillBox",
+        "url": "#!"
+      },
       "autoPresentJavaFx": {
         "category": "Desktop App",
         "featureImage": "data/project/autoPresentJavaFx/images/feature.png",
@@ -709,7 +782,6 @@
         "title": "Bike Gps Tracker",
         "url": "#!"
       },
-     
       "insafServiceWeb": {
         "category": "Web Development",
         "featureImage": "data/project/insafServiceWeb/images/feature.png",
