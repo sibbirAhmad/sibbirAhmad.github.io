@@ -1,0 +1,46 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hisnShield" x1="40" y1="24" x2="210" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F6C73"/>
+      <stop offset="1" stop-color="#093947"/>
+    </linearGradient>
+    <linearGradient id="hisnMetal" x1="61" y1="12" x2="211" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.5" stop-color="#B4C2CD"/>
+      <stop offset="1" stop-color="#EFF4F7"/>
+    </linearGradient>
+    <linearGradient id="hisnWordmark" x1="284" y1="86" x2="832" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D7F1D"/>
+      <stop offset="0.52" stop-color="#377A56"/>
+      <stop offset="1" stop-color="#0F6C73"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="260" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#082634" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M126 20L210 52V118C210 173 176 219 126 240C76 219 42 173 42 118V52L126 20Z" fill="url(#hisnShield)"/>
+    <path d="M126 29L201 58V118C201 168 170 208 126 228C82 208 51 168 51 118V58L126 29Z" stroke="url(#hisnMetal)" stroke-width="8"/>
+
+    <path d="M126 34C143 34 157 48 157 65V84H144V65C144 55 136 47 126 47C116 47 108 55 108 65V84H95V65C95 48 109 34 126 34Z" fill="url(#hisnMetal)"/>
+    <rect x="84" y="78" width="84" height="70" rx="18" fill="url(#hisnMetal)" stroke="#0A3340" stroke-width="5"/>
+    <circle cx="126" cy="108" r="12" fill="#093947"/>
+    <path d="M126 118V132" stroke="#093947" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M86 104C86 78 103 59 126 59C106 68 91 90 91 116C91 144 108 168 132 177C104 181 86 149 86 104Z" fill="#F7FBFC"/>
+    <path d="M204 76L210 88L224 90L214 99L217 113L204 106L191 113L194 99L184 90L198 88L204 76Z" fill="#F7FBFC"/>
+
+    <path d="M65 170H187L176 202C165 210 146 216 126 216C106 216 87 210 76 202L65 170Z" fill="#082A36"/>
+    <path d="M58 166H194L187 202C175 212 151 220 126 220C101 220 77 212 65 202L58 166Z" stroke="url(#hisnMetal)" stroke-width="6"/>
+    <text x="126" y="200" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="4" fill="#F8FAFC">HISN</text>
+  </g>
+
+  <g>
+    <text x="284" y="94" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#214556" letter-spacing="2">ALFAFAA PRIVATE VAULT</text>
+    <text x="284" y="168" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="86" font-weight="800" fill="url(#hisnWordmark)" letter-spacing="3">HISN</text>
+    <text x="286" y="207" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="24" font-weight="500" fill="#4A6270" letter-spacing="1.5">
+      secure vault access for approved Alfafaa members
+    </text>
+  </g>
+</svg>

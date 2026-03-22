@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeShield" x1="116" y1="64" x2="383" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F6C73"/>
+      <stop offset="1" stop-color="#0A3041"/>
+    </linearGradient>
+    <linearGradient id="badgeMetal" x1="131" y1="50" x2="383" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.5" stop-color="#B3C1CB"/>
+      <stop offset="1" stop-color="#EFF4F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#F5F8FA"/>
+  <path d="M256 69L388 120V223C388 312 335 387 256 423C177 387 124 312 124 223V120L256 69Z" fill="url(#badgeShield)"/>
+  <path d="M256 84L373 129V223C373 306 323 375 256 408C189 375 139 306 139 223V129L256 84Z" stroke="url(#badgeMetal)" stroke-width="12"/>
+  <path d="M256 95C281 95 302 116 302 141V170H282V141C282 127 270 115 256 115C242 115 230 127 230 141V170H210V141C210 116 231 95 256 95Z" fill="url(#badgeMetal)"/>
+  <rect x="192" y="156" width="128" height="110" rx="28" fill="url(#badgeMetal)" stroke="#0A3140" stroke-width="8"/>
+  <circle cx="256" cy="203" r="18" fill="#093947"/>
+  <path d="M256 219V242" stroke="#093947" stroke-width="12" stroke-linecap="round"/>
+  <path d="M194 196C194 154 221 123 256 123C225 138 202 173 202 216C202 261 228 299 267 312C225 319 194 269 194 196Z" fill="#F7FBFC"/>
+  <path d="M383 116L391 133L410 135L396 147L400 166L383 157L366 166L370 147L356 135L375 133L383 116Z" fill="#F7FBFC"/>
+  <path d="M150 320H362L349 383C332 397 296 406 256 406C216 406 180 397 163 383L150 320Z" fill="#082A36"/>
+  <path d="M141 314H371L362 383C344 399 302 414 256 414C210 414 168 399 150 383L141 314Z" stroke="url(#badgeMetal)" stroke-width="9"/>
+  <text x="256" y="375" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="6" fill="#F8FAFC">HISN</text>
+</svg>
